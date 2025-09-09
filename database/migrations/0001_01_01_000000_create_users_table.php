@@ -30,6 +30,8 @@ return new class extends Migration
             $table->double('saldo');
             $table->double('saldo_referral');
             $table->double('storage_size');
+            $table->integer('desktop_plugin');
+            $table->timestamp('desktop_at')->nullable();
             $table->string('status_hp');
             $table->string('device_name');
             $table->string('device_type');
