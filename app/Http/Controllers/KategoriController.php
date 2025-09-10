@@ -26,6 +26,8 @@ class KategoriController extends Controller
             'nama_kategori' => $request->nama_kategori,
         ]);
 
+        //tambahkan fungsi pengecekan apakah token yang dipakai masih sama dengan id user
+
         return response()->json([
             'message' => 'Kategori berhasil ditambahkan',
             'data' => $kategori,
@@ -35,14 +37,52 @@ class KategoriController extends Controller
     //detail kategori
     public function show($id, Request $request)
     {
-        $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+        // $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+        // return response()->json($kategori, 200);
+
+        $kategori = Kategori::find($id);
+
+        // jika id tidak ada
+        if (!$kategori) {
+            return response()->json([
+                'message' => 'Kategori ID tidak ditemukan'
+            ], 404);
+        }
+
+        // cek token
+        // if ($resp = $this->validate(['api_token' => 'required|string'], $request->api_token() )) {
+        //     return $resp;
+        // }
+        if ($kategori->id_users !== $request->user()->id) {
+            return response()->json([
+                'message' => 'Token invalid'
+            ], 400);
+        }
+
         return response()->json($kategori, 200);
     }
 
     // update kategori
     public function update(Request $request, $id)
     {
-        $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+        // $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+
+        $kategori = Kategori::find($id);
+
+        // jika id tidak ada
+        if (!$kategori) {
+            return response()->json([
+                'message' => 'Kategori ID tidak ditemukan'
+            ], 404);
+        }
+
+        // cek token
+        if ($kategori->id_users !== $request->user()->id) {
+            return response()->json([
+                'message' => 'Token invalid'
+            ], 400);
+        }
+
 
         $request->validate([
             'nama_kategori' => 'sometimes|required|string|max:100',
@@ -59,7 +99,24 @@ class KategoriController extends Controller
     //hapus kategori
     public function destroy($id, Request $request)
     {
-        $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+        // $kategori = Kategori::where('id_users', $request->user()->id)->findOrFail($id);
+
+        $kategori = Kategori::find($id);
+
+        // jika id tidak ada
+        if (!$kategori) {
+            return response()->json([
+                'message' => 'Kategori ID tidak ditemukan'
+            ], 404);
+        }
+
+        // cek token
+        if ($kategori->id_users !== $request->user()->id) {
+            return response()->json([
+                'message' => 'Token invalid'
+            ], 400);
+        }
+
         $kategori->delete();
 
         return response()->json([

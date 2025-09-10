@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('kode_pelanggan')->unique();
             $table->text('alamat_pelanggan')->nullable();
             $table->string('foto_pelanggan')->nullable();
-            $table->decimal('saldo_pelanggan')->default(0);
+            $table->decimal('saldo_pelanggan', 15, 2)->default(0); //$table->decimal('saldo_pelanggan', 15, 2)->default(0); biar bisa input saldo banyak
             $table->integer('poin_pelanggan')->default(0);
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
