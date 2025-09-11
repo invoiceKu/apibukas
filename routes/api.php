@@ -5,15 +5,18 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\BarangController;
+use App\Http\Controllers\BillingController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\CompanyController;
+
 
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/billing/trial', [BillingController::class, 'trial']);
     // Company routes
     Route::prefix('company')->group(function () {
         Route::post('/create', [CompanyController::class, 'create_company']);

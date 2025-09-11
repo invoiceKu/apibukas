@@ -19,13 +19,13 @@ return new class extends Migration
             $table->double('storage_size');
             $table->integer('total_staff');
             $table->integer('pro');
-            $table->integer('desktop');
+            // $table->integer('desktop');
             $table->double('jumlah_bulan');
             $table->double('total');
             $table->integer('tipe');
             $table->integer('status');
             $table->string('detail');
-            $table->string('invoice');
+            $table->string('invoice')->nullable();// nullable untuk trial
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
             $table->foreign('id_users')->references('id')->on('users');
