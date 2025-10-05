@@ -15,14 +15,15 @@ class BillingController extends Controller
         $user = $request->user();
 
         // cek apakah user sudah pernah trial
-        if ($user->type_account == 0 &&  $user->expired_user == NULL) {
+        if ($user->paket_1 == 0 &&  $user->paket1_at == NULL) {
             // Set expired_user 30 hari kedepan jam 23:59:59
             $expired = now()->addDays(30)->setTime(23, 59, 59);
 
             // Update user ke trial
             $user->update([
                 'expired_user' => $expired,
-                'type_account' => 1, // trial
+                'paket_1' => 1, // trial
+                'paket1_at' => $expired,
             ]);
 
             // Buat data billing
@@ -30,9 +31,12 @@ class BillingController extends Controller
                 'id_users'      => $user->id,
                 'waktu_awal'    => now(),
                 'waktu_akhir'   => $expired,
+                'keterangan'    => 'trial paket 1',
+                'paket_1'       => 1,
+                'paket_2'       => 0,
+                'paket_3'       => 0,
                 'storage_size'  => $user->storage_size,
                 'total_staff'   => 0,
-                'pro'           => 1, // trial
                 'jumlah_bulan'  => 0,
                 'total'         => 0,
                 'tipe'          => 0, // trial

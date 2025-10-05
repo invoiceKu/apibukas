@@ -16,10 +16,12 @@ return new class extends Migration
             $table->unsignedInteger('id_users');
             $table->timestamp('waktu_awal')->nullable();
             $table->timestamp('waktu_akhir')->nullable();
+            $table->string('keterangan');
+            $table->integer('paket_1');
+            $table->integer('paket_2');
+            $table->integer('paket_3');
             $table->double('storage_size');
             $table->integer('total_staff');
-            $table->integer('pro');
-            // $table->integer('desktop');
             $table->double('jumlah_bulan');
             $table->double('total');
             $table->integer('tipe');

@@ -22,7 +22,9 @@ class CheckExpiredUsers extends Command
         // Cari user yang sudah expired
         $expiredUsers = User::whereNotNull('expired_user')
             ->where('expired_user', '<', now())   // sudah lewat
-            ->where('type_account', '!=', 0)      // bukan akun gratis
+            ->where('paket_1', '!=', 0)      // bukan akun gratis
+            ->where('paket_2', '!=', 0)
+            ->where('paket_3', '!=', 0)
             ->get();
 
         if ($expiredUsers->isEmpty()) {
@@ -31,16 +33,46 @@ class CheckExpiredUsers extends Command
             return;
         }
 
+        // Tampilkan daftar email user yang expired
+        $this->info("\n=== DAFTAR USER EXPIRED ===");
+        $this->info("Total: " . $expiredUsers->count() . " user\n");
+        
+        $emailList = [];
+        foreach ($expiredUsers as $index => $user) {
+            $emailList[] = [
+                'No' => $index + 1,
+                'Email' => $user->email,
+                'Expired Date' => $user->expiredUsers->format('Y-m-d H:i:s'),
+                'Paket 1' => $user->paket_1,
+                'Paket 2' => $user->paket_2,
+                'Paket 3' => $user->paket_3
+            ];
+            
+            $msg = "User expired: {$user->email} (Expired: {$user->expiredUsers})";
+            $this->warn($msg);
+            Log::info($msg);
+        }
+
+        // Tampilkan dalam format table
+        $this->table(
+            ['No', 'Email', 'Expired Date', 'Paket 1', 'Paket 2', 'Paket 3'],
+            $emailList
+        );
+
+
         // Reset akun expired
         foreach ($expiredUsers as $user) {
-            $user->update(['type_account' => 0]);
-// id user tidak
+           $user->update([
+                'paket_1' => 0,
+                'paket_2' => 0,
+                'paket_3' => 0,
+        ]);
             $msg = "User expired: {$user->email}";
             $this->warn($msg);   // tampil di console
             Log::info($msg);     // simpan di log
         }
 
-        $this->info('Total user expired: ' . $expiredUsers->count());
-        Log::info('Total user expired: ' . $expiredUsers->count());
+        // $this->info('Total user expired: ' . $expiredUsers->count());
+        // Log::info('Total user expired: ' . $expiredUsers->count());
     }
 }
