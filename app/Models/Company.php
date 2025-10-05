@@ -13,12 +13,12 @@ class Company extends Model
 
     protected $fillable = [
         'id_users',
+        'company_logo',
         'company_name',
         'company_address',
         'company_owners',
         'company_telp',
         'motto',
-        'pajak_default',
         'sub_business',
         'currency',
         'currency_code',
@@ -29,10 +29,6 @@ class Company extends Model
         'kota',
         'latitude',
         'longitude',
-    ];
-
-    protected $casts = [
-        'pajak_default' => 'decimal:2',
     ];
 
     public function user()

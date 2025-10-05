@@ -16,12 +16,10 @@ class CompanyController extends Controller
     {
         // Validasi input
         $validator = Validator::make($request->all(), [
-            'company_name' => 'required|string|max:30',
-            'company_address' => 'required|string|max:80',
+            'company_logo' => 'nullable|string',
+            'company_name' => 'required|string|max:30',            
             'company_owners' => 'required|string|max:30',
             'company_telp' => 'required|string|max:15',
-            'motto' => 'nullable|string|max:125',
-            'pajak_default' => 'nullable|numeric',
             'sub_business' => 'nullable|string',
             'currency' => 'nullable|string',
             'currency_code' => 'nullable|string',
@@ -30,8 +28,10 @@ class CompanyController extends Controller
             'negara' => 'nullable|string',
             'provinsi' => 'nullable|string',
             'kota' => 'nullable|string',
+            'company_address' => 'required|string|max:80',
             'latitude' => 'nullable|numeric',
             'longitude' => 'nullable|numeric',
+            'motto' => 'nullable|string|max:125',
         ]);
 
         if ($validator->fails()) {
@@ -59,12 +59,12 @@ class CompanyController extends Controller
         // Buat company baru
         $company = Company::create([
             'id_users' => $request->user()->id,
+            'company_logo' => $request->company_logo,
             'company_name' => $request->company_name,
             'company_address' => $request->company_address,
             'company_owners' => $request->company_owners,
             'company_telp' => $request->company_telp,
             'motto' => $request->motto,
-            'pajak_default' => $request->pajak_default ?? 0,
             'sub_business' => $request->sub_business,
             'currency' => $request->currency,
             'currency_code' => $request->currency_code,
@@ -92,12 +92,12 @@ class CompanyController extends Controller
     {
         // Validasi input
         $validator = Validator::make($request->all(), [
+            'company_logo' => 'nullable|string',
             'company_name' => 'sometimes|string|max:30',
             'company_address' => 'sometimes|string|max:80',
             'company_owners' => 'sometimes|string|max:30',
             'company_telp' => 'sometimes|string|max:15',
             'motto' => 'nullable|string|max:125',
-            'pajak_default' => 'nullable|numeric',
             'sub_business' => 'nullable|string',
             'currency' => 'nullable|string',
             'currency_code' => 'nullable|string',
@@ -136,8 +136,8 @@ class CompanyController extends Controller
 
     // Update field yang ada di request
     $updateData = $request->only([
-        'company_name', 'company_address', 'company_owners', 'company_telp',
-        'motto', 'pajak_default', 'sub_business', 'currency', 'currency_code',
+        'company_logo','company_name', 'company_address', 'company_owners', 'company_telp',
+        'motto', 'sub_business', 'currency', 'currency_code',
         'currency_country', 'stok_mode', 'negara', 'provinsi', 'kota'
     ]);
 

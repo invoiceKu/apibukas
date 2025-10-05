@@ -23,13 +23,21 @@ class User extends Authenticatable
         'email',
         'password',
         'no_hp',
-        'type_account',
+        'expired_user',
+        'paket_1',
+        'paket1_at',
+        'paket_2',
+        'paket2_at',
+        'paket_3',
+        'paket3_at',
         'type_user',
         'foto_profil',
         'versi',
         'saldo',
         'saldo_referral',
         'storage_size',
+        'desktop_plugin',
+        'desktop_at',
         'status_hp',
         'device_name',
         'device_type',
@@ -58,5 +66,9 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+    public function company()
+    {
+        return $this->hasOne(Company::class, 'id_users');
     }
 }

@@ -22,7 +22,12 @@ return new class extends Migration
             $table->timestamp('expired_user')->nullable()->default(null);
             $table->string('api_token')->nullable();
             $table->timestamp('expired_token')->nullable()->default(null);
-            $table->integer('type_account');
+            $table->integer('paket_1');
+            $table->timestamp('paket1_at')->nullable()->default(null);
+            $table->integer('paket_2');
+            $table->timestamp('paket2_at')->nullable()->default(null);
+            $table->integer('paket_3');
+            $table->timestamp('paket3_at')->nullable()->default(null);
             $table->integer('type_user');
             $table->string('foto_profil')->nullable();
             $table->string('type_login')->nullable();
@@ -30,6 +35,8 @@ return new class extends Migration
             $table->double('saldo');
             $table->double('saldo_referral');
             $table->double('storage_size');
+            $table->integer('desktop_plugin');
+            $table->timestamp('desktop_at')->nullable();
             $table->string('status_hp');
             $table->string('device_name');
             $table->string('device_type');
