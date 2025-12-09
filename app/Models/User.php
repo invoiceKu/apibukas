@@ -43,6 +43,7 @@ class User extends Authenticatable
         'device_type',
         'os_version',
         'api_token',
+        'nomor_struk',
     ];
 
     /**

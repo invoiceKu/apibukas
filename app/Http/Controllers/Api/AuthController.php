@@ -44,6 +44,7 @@ class AuthController extends Controller
             'device_name' => '',
             'device_type' => '',
             'os_version' => '',
+            'nomor_struk' => 1,
         ]);
 
         $token = $user->createToken('auth_token')->plainTextToken;
