@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedInteger('id_users');
             $table->string('company_logo')->nullable();
             $table->string('company_name', 30);
-            $table->string('company_address', 80);
+            $table->string('company_address', 80)->nullable();
             $table->string('company_owners', 30);
             $table->string('company_telp', 15);
             $table->string('motto', 125)->nullable();

@@ -29,7 +29,7 @@
 	
 	
     <!-- Page Title -->
-    <title>Aplikasi POS Lengkap Pendukung UMKM Lebih Maju</title>
+    <title>Aplikasi POS Lengkap Pendukung UMKM Lebih Maja</title>
 
     <!-- GOOGLE FONT PRECONNECT -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">

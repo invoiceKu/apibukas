@@ -9,11 +9,17 @@ use App\Http\Controllers\BillingController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\DataStokController;
 
 
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
+
+// Staff routes
+Route::prefix('staff')->group(function () {
+    require __DIR__.'/staff.php';
+});
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/billing/trial', [BillingController::class, 'trial']);
@@ -58,8 +64,10 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/pelanggan/{id}', [PelangganController::class, 'show']);
     Route::put('/pelanggan/{id}', [PelangganController::class, 'update']);
     Route::delete('/pelanggan/{id}', [PelangganController::class, 'destroy']);
-// });
-// Route::get('/pelanggan/test', function () {
-//     return response()->json(['message' => 'Pelanggan route OK']);
+});
+
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/data-stok/tambah', [DataStokController::class, 'tambahStok']);
+    Route::post('/data-stok/kurangi', [DataStokController::class, 'kurangiStok']);
 });
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buku Kasir @ Aplikasi POS Pendukung UMKM Lebih Pasti</title>
     <link rel="shortcut icon" href="{{ asset('images/logo-icon.png') }}">
-    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
 </head>
 <body>
 
@@ -77,16 +77,16 @@
 
         <div class="business-slider">
             <div class="business-slide active">
-                <img src="{{ asset('images/slider1.jpg') }}" alt="Food & Beverage">
+                <img src="{{ asset('images/slider1.png') }}" alt="Food & Beverage">
             </div>
             <div class="business-slide">
-                <img src="{{ asset('images/slider2.jpg') }}" alt="Toko Retail">
+                <img src="{{ asset('images/slider2.png') }}" alt="Toko Retail">
             </div>
             <div class="business-slide">
-                <img src="{{ asset('images/slider3.jpg') }}" alt="Services">
+                <img src="{{ asset('images/slider3.png') }}" alt="Services">
             </div>
             <div class="business-slide">
-                <img src="{{ asset('images/slider4.jpg') }}" alt="Beauty">
+                <img src="{{ asset('images/slider4.png') }}" alt="Beauty">
             </div>
 
             <div class="business-nav">
@@ -121,7 +121,7 @@
     <section class="pos-section">
         <div class="pos-container">
             <div class="pos-image">
-                <img src="{{ asset('images/pos-example.png') }}" alt="POS Image">
+                <img src="{{ asset('images/slider1.png') }}" alt="POS Image">
             </div>
 
             <div class="pos-content">
@@ -244,104 +244,102 @@
 
             <!-- Dynamic Plans -->
             @foreach ($prices as $price)
-            <div class="pricing-card {{ strtolower($price->name) }}">
-                <div class="plan-name">{{ $price->nama }}</div>
-                <div class="price" 
-                     data-monthly="Rp {{ number_format($price->harga, 0, ',', '.') }}" 
-                     data-yearly="Rp {{ number_format($price->harga * 12 * 0.65, 0, ',', '.') }}">
-                    Rp {{ number_format($price->harga, 0, ',', '.') }}
+                <div class="pricing-card {{ strtolower($price->name) }}">
+                    <div class="plan-name">{{ $price->nama }}</div>
+                    <div class="price"
+                         data-monthly="Rp {{ number_format($price->harga, 0, ',', '.') }}"
+                         data-yearly="Rp {{ number_format($price->harga * 12 * 0.65, 0, ',', '.') }}">
+                        Rp {{ number_format($price->harga, 0, ',', '.') }}
+                    </div>
+                    <div class="price-period">Per bulan dibayar per tahun</div>
+                    <a href="#" class="cta-button">Coba Gratis Sekarang</a>
+                    <div class="feature-note">Semua fitur paket {{ $price->nama }}</div>
+                    <ul class="features-list">
+                        @if($price->nama === 'Basic')
+                            <li>1 User</li>
+                            <li>1 Gudang</li>
+                            <li>Alur Bisnis Lengkap</li>
+                            <li>Manajemen Stok</li>
+                            <li>Multi Cabang & Multi Proyek</li>
+                        @elseif($price->nama === 'Advance')
+                            <li>2 User</li>
+                            <li>10 Gudang</li>
+                            <li>Produk Manufaktur</li>
+                            <li>Marketplace Connect ***</li>
+                            <li>Advance Sales Commission</li>
+                            <li>Custom Template Invoice ***</li>
+                        @elseif($price->nama === 'Expert')
+                            <li>5 User</li>
+                            <li>20 Gudang</li>
+                            <li>Budgeting</li>
+                            <li>Konsolidasi Anak Perusahaan</li>
+                            <li>Multi Currency</li>
+                            <li>Approval</li>
+                        @else
+                            <li>Fitur dasar paket {{ $price->name }}</li>
+                        @endif
+                    </ul>
                 </div>
-                <div class="price-period">Per bulan dibayar per tahun</div>
-                <a href="#" class="cta-button">Coba Gratis Sekarang</a>
-                <div class="feature-note">Semua fitur paket {{ $price->nama }}</div>
-                <ul class="features-list">
-    @if($price->nama === 'Basic')
-        <li>1 User</li>
-        <li>1 Gudang</li>
-        <li>Alur Bisnis Lengkap</li>
-        <li>Manajemen Stok</li>
-        <li>Multi Cabang & Multi Proyek</li>
-    @elseif($price->nama === 'Advance')
-        <li>2 User</li>
-        <li>10 Gudang</li>
-        <li>Produk Manufaktur</li>
-        <li>Marketplace Connect ***</li>
-        <li>Advance Sales Commission</li>
-        <li>Custom Template Invoice ***</li>
-    @elseif($price->nama === 'Expert')
-        <li>5 User</li>
-        <li>20 Gudang</li>
-        <li>Budgeting</li>
-        <li>Konsolidasi Anak Perusahaan</li>
-        <li>Multi Currency</li>
-        <li>Approval</li>
-    @else
-        <li>Fitur dasar paket {{ $price->name }}</li>
-    @endif
-</ul>
-
-
-            </div>
             @endforeach
         </div>
     </section>
 
+    <!-- FAQ Section -->
     <section class="faq-section">
         <h2 class="faq-title">FAQ</h2>
 
         <div class="faq-item">
             <div class="faq-question">
-                <span>Apa itu Moka POS?</span>
+                <span>Apa itu Buku Kasir?</span>
                 <span class="faq-icon">▼</span>
             </div>
             <div class="faq-answer">
-                <p>Moka POS adalah aplikasi kasir (Point of Sale) berbasis cloud yang membantu bisnis mengelola transaksi dan laporan penjualan dengan mudah.</p>
+                <p>Buku Kasir adalah aplikasi kasir (Point of Sale) berbasis cloud yang membantu bisnis mengelola transaksi dan laporan penjualan dengan mudah.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">
-                <span>Bagaimana cara menggunakan aplikasi kasir/POS dari Moka?</span>
+                <span>Bagaimana cara menggunakan aplikasi kasir/POS dari Buku Kasir?</span>
                 <span class="faq-icon">▼</span>
             </div>
             <div class="faq-answer">
-                <p>Anda dapat mengunduh aplikasi Moka POS, login dengan akun Anda, lalu mulai menambahkan produk dan melakukan transaksi.</p>
+                <p>Anda dapat mengunduh aplikasi Buku Kasir, login dengan akun Anda, lalu mulai menambahkan produk dan melakukan transaksi.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">
-                <span>Berapa biaya berlangganan Moka POS?</span>
+                <span>Berapa biaya berlangganan Buku Kasir?</span>
                 <span class="faq-icon">▼</span>
             </div>
             <div class="faq-answer">
-                <p>Biaya berlangganan bervariasi tergantung paket yang dipilih. Anda dapat mengunjungi situs resmi Moka untuk informasi detail.</p>
+                <p>Biaya berlangganan bervariasi tergantung paket yang dipilih. Anda dapat melihat detail harga di section pricing di atas.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">
-                <span>Bagaimana cara mendaftar Moka POS?</span>
+                <span>Bagaimana cara mendaftar Buku Kasir?</span>
                 <span class="faq-icon">▼</span>
             </div>
             <div class="faq-answer">
-                <p>Kunjungi situs resmi Moka, klik “Daftar”, isi data bisnis Anda, lalu ikuti panduan pendaftaran yang tersedia.</p>
+                <p>Kunjungi aplikasi Buku Kasir, klik "Daftar", isi data bisnis Anda, lalu ikuti panduan pendaftaran yang tersedia.</p>
             </div>
         </div>
-
     </section>
 
+    <!-- Trainer Section -->
     <section class="trainer">
         <div class="trainer-content">
             <div class="trainer-logo">
-                <img src="{{ asset('images/main-logo2.png') }}" alt="Logo" />
+                <img src="{{ asset('images/main-logo2.png') }}" alt="Logo">
             </div>
             <h1>Solusi tepat untuk akselerasikan bisnis lebih pesat</h1>
             <p>
-                Buku Kasir mempermudah operasional dan finansial bisnis agar Anda fokus 
+                Buku Kasir mempermudah operasional dan finansial bisnis agar Anda fokus
                 pada perkembangan dan pengambilan keputusan lebih baik.
             </p>
-
             <div class="trainer-buttons">
                 <a href="#" class="btn-whatsapp">WhatsApp sales</a>
                 <a href="#" class="btn-outline">Mulai gratis</a>

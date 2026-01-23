@@ -28,6 +28,7 @@ return new class extends Migration
             $table->timestamp('paket2_at')->nullable()->default(null);
             $table->integer('paket_3');
             $table->timestamp('paket3_at')->nullable()->default(null);
+            $table->integer('staff')->nullable();
             $table->integer('type_user');
             $table->string('foto_profil')->nullable();
             $table->string('type_login')->nullable();
@@ -41,7 +42,7 @@ return new class extends Migration
             $table->string('device_name');
             $table->string('device_type');
             $table->string('os_version');
-            $table->integer('nomor_struktur')->nullable();
+            $table->integer('nomor_struk')->nullable();
             $table->timestamp('delete_at')->nullable()->default(null);
         });
 

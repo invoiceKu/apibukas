@@ -378,13 +378,17 @@ nav .menu li a:hover {
   min-width: 300px;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .pos-image img {
   width: 100%;
   max-width: 450px;
+  height: 390px;
   border-radius: 20px;
   object-fit: cover;
+  object-position: center;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
