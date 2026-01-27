@@ -7,26 +7,20 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Activitylog\Traits\LogsActivity;
 use Spatie\Activitylog\LogOptions;
 
-class barangs extends Model
+class Pelanggan extends Model
 {
     use HasFactory, LogsActivity;
 
     protected $fillable = [
         'id_users',
-        'foto_barang',
-        'nama_barang',
-        'kode_barang',
-        'tipe_barang',
-        'tipe_stok',
-        'stok',
-        'harga_dasar',
-        'harga_jual',
-        'nama_kategori',
-        'tipe_diskon',
-        'nilai_diskon',
-        'berat',
-        'satuan',
-        'tampil_transaksi'
+        'nama_pelanggan',
+        'email_pelanggan',
+        'no_pelanggan',
+        'kode_pelanggan',
+        'alamat_pelanggan',
+        'foto_pelanggan',
+        'saldo_pelanggan',
+        'poin_pelanggan',
     ];
 
     // relasi ke user
@@ -41,9 +35,9 @@ class barangs extends Model
     public function getActivitylogOptions(): LogOptions
     {
         return LogOptions::defaults()
-            ->logOnly(['nama_barang', 'kode_barang', 'stok', 'harga_dasar', 'harga_jual', 'nama_kategori', 'tipe_barang', 'satuan'])
+            ->logOnly(['nama_pelanggan', 'email_pelanggan', 'no_pelanggan', 'kode_pelanggan', 'alamat_pelanggan', 'saldo_pelanggan', 'poin_pelanggan'])
             ->logOnlyDirty()
             ->dontSubmitEmptyLogs()
-            ->setDescriptionForEvent(fn(string $eventName) => "Barang {$eventName}");
+            ->setDescriptionForEvent(fn(string $eventName) => "Pelanggan {$eventName}");
     }
 }

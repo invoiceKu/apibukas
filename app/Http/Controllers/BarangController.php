@@ -15,7 +15,27 @@ class BarangController extends Controller
     public function index(Request $request)
     {
         $barangs = barangs::where('id_users', $request->user()->id)->get();
-        return response()->json($barangs, 200);
+        
+        // Tambahkan data stok untuk setiap barang
+        $barangsWithStok = $barangs->map(function ($barang) {
+            $dataStok = data_stok::where('id_barangs', $barang->id)->get();
+            
+            $barang->data_stok = $dataStok->map(function ($stok) {
+                return [
+                    'id' => $stok->id,
+                    'id_barangs' => $stok->id_barangs,
+                    'stok' => $stok->stok,
+                    'harga_dasar' => $stok->harga_dasar,
+                    'created_at' => $stok->created_at,
+                    'expired_at' => $stok->expired_at,
+                    'updated_at' => $stok->updated_at,
+                ];
+            });
+            
+            return $barang;
+        });
+        
+        return response()->json($barangsWithStok, 200);
     }
 
     // Simpan barang baru
