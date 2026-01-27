@@ -30,7 +30,6 @@ class User extends Authenticatable
         'paket2_at',
         'paket_3',
         'paket3_at',
-        'staff',
         'type_user',
         'foto_profil',
         'versi',

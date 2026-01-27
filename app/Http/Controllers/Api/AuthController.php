@@ -35,7 +35,6 @@ class AuthController extends Controller
             'paket_1' => 0,
             'paket_2' => 0,
             'paket_3' => 0,
-            'staff' => 0,
             'foto_profil' => '',
             'versi' => $request->versi,
             'saldo' => 0,
@@ -61,6 +60,7 @@ class AuthController extends Controller
             'company_telp' => $request->no_hp,
             'sub_business' => $request->sub_business,
             'stok_mode' => 'fifo',
+            'staff' => 0,
         ]);
 
         return response()->json([

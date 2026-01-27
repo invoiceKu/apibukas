@@ -28,7 +28,6 @@ return new class extends Migration
             $table->timestamp('paket2_at')->nullable()->default(null);
             $table->integer('paket_3');
             $table->timestamp('paket3_at')->nullable()->default(null);
-            $table->integer('staff')->nullable();
             $table->integer('type_user');
             $table->string('foto_profil')->nullable();
             $table->string('type_login')->nullable();

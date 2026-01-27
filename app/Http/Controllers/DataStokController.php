@@ -14,22 +14,20 @@ class DataStokController extends Controller
     public function tambahStok(Request $request)
     {
         $request->validate([
+            'id_users' => 'required|exists:users,id',
             'id_barangs' => 'required|exists:barangs,id',
             'stok' => 'required|numeric|min:0.01',
             'harga_dasar' => 'required|numeric|min:0',
-            'created_at' => 'nullable|date',
             'expired_at' => 'nullable|date',
-            'updated_at' => 'nullable|date',
         ]);
 
         // Buat data stok baru
         $dataStok = data_stok::create([
+            'id_users' => $request->id_users,
             'id_barangs' => $request->id_barangs,
             'stok' => $request->stok,
             'harga_dasar' => $request->harga_dasar,
-            'created_at' => $request->created_at ?? now(),
             'expired_at' => $request->expired_at,
-            'updated_at' => $request->updated_at ?? now(),
         ]);
 
         // Update total stok di tabel barangs
@@ -44,11 +42,12 @@ class DataStokController extends Controller
             'message' => 'Data stok berhasil ditambahkan',
             'data' => [
                 'id' => $dataStok->id,
+                'id_users' => $dataStok->id_users,
                 'id_barangs' => $dataStok->id_barangs,
                 'stok' => $dataStok->stok,
                 'harga_dasar' => $dataStok->harga_dasar,
-                'created_at' => $dataStok->created_at,
                 'expired_at' => $dataStok->expired_at,
+                'created_at' => $dataStok->created_at,
                 'updated_at' => $dataStok->updated_at,
             ]
         ], 201);
@@ -133,11 +132,58 @@ class DataStokController extends Controller
             'data' => $updatedDataStok->map(function ($item) {
                 return [
                     'id' => $item->id,
+                    'id_users' => $item->id_users,
                     'id_barangs' => $item->id_barangs,
                     'stok' => $item->stok,
                     'harga_dasar' => $item->harga_dasar,
-                    'created_at' => $item->created_at,
                     'expired_at' => $item->expired_at,
+                    'created_at' => $item->created_at,
+                    'updated_at' => $item->updated_at,
+                ];
+            })
+        ], 200);
+    }
+
+    /**
+     * Get all data stok berdasarkan id_users dari token
+     */
+    public function getAllStokByUser(Request $request)
+    {
+        // Ambil user dari token authentication
+        $user = $request->user();
+
+        if (!$user) {
+            return response()->json([
+                'message' => 'Unauthorized. Token tidak valid atau tidak ditemukan.'
+            ], 401);
+        }
+
+        // Ambil semua data stok berdasarkan id_users dengan relasi barang
+        $dataStok = data_stok::where('id_users', $user->id)
+            ->with('barang')
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        // Cek apakah data stok kosong
+        if ($dataStok->isEmpty()) {
+            return response()->json([
+                'message' => 'Data stok tidak ditemukan',
+                'data' => []
+            ], 200);
+        }
+
+        return response()->json([
+            'message' => 'Data stok berhasil diambil',
+            'total_records' => $dataStok->count(),
+            'data' => $dataStok->map(function ($item) {
+                return [
+                    'id' => $item->id,
+                    'id_users' => $item->id_users,
+                    'id_barangs' => $item->id_barangs,
+                    'stok' => $item->stok,
+                    'harga_dasar' => $item->harga_dasar,
+                    'expired_at' => $item->expired_at,
+                    'created_at' => $item->created_at,
                     'updated_at' => $item->updated_at,
                 ];
             })

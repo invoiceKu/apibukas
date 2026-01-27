@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Staff;
 use App\Models\User;
+use App\Models\Company;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
@@ -48,12 +49,41 @@ class StaffController extends Controller
         // Get the authenticated user's id
         $userId = Auth::id();
 
+        // Get authenticated user
+        $user = User::find($userId);
+        
+        if (!$user) {
+            return response()->json([
+                'message' => 'User not found'
+            ], 404);
+        }
+
+        // Get user's company
+        $company = Company::where('id_users', $userId)->first();
+        
+        if (!$company) {
+            return response()->json([
+                'message' => 'Company not found for this user'
+            ], 404);
+        }
+
+        // Count existing staff for this user
+        $totalStaff = Staff::where('id_users', $userId)->count();
+        
+        // Check if quota is full (total staff <= staff column + 2)
+        if ($totalStaff >= ($company->staff + 2)) {
+            return response()->json([
+                'message' => 'Kuota staff sudah penuh silahkan tambah kuota staff anda!'
+            ], 400);
+        }
+
         // Create staff member
         $staff = Staff::create([
             'id_users' => $userId,
             'username' => $request->username,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'expired_user' => $user->expired_user,
             'alamat' => $request->alamat,
             'no_hp' => $request->no_hp,
             'foto_profil' => $request->foto_profil,
