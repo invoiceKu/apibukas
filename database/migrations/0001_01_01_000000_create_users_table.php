@@ -41,6 +41,7 @@ return new class extends Migration
             $table->string('device_name');
             $table->string('device_type');
             $table->string('os_version');
+            $table->integer('nomor_struk')->nullable();
             $table->timestamp('delete_at')->nullable()->default(null);
         });
 

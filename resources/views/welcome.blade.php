@@ -1,176 +1,3602 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+	<script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script async="" src="https://scripts.clarity.ms/0.8.33/clarity.js"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/bGi-DxR800F5_ueMVcTwXc6q/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-4b0QXzJmTq+lsbXNO+ydCJCFaWz1VU6xhJ3AxZX0Uv80Tb7h/tKLq6GqtYRNXR6L" nonce=""></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/identify_4e6f0095.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTE0NjY3MDc0OQ.js" data-id="C6NC13BU2H2S4I7M5GH0"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTE0NjY3MDc0OA.js" data-id="C81OAGFQNQSIS07TNK70"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTE0NjY3MDc0OQ.js" data-id="C81OBU11P6O4F58G2H70"></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script async="" src="https://www.clarity.ms/tag/by5yqqhh63"></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" nonce=""></script><script src="https://connect.facebook.net/signals/config/2044637952338193?v=2.9.234&amp;r=stable&amp;domain=majoo.id&amp;hme=8cc7145f8d1f3cf4631177d0631077d9deb0ae3f644f21ab6cd23c0c201883ea&amp;ex_m=88%2C149%2C129%2C19%2C123%2C62%2C42%2C124%2C69%2C61%2C136%2C77%2C13%2C87%2C27%2C118%2C109%2C67%2C70%2C117%2C133%2C96%2C138%2C7%2C3%2C4%2C6%2C5%2C2%2C78%2C86%2C139%2C215%2C161%2C56%2C220%2C217%2C218%2C49%2C176%2C26%2C66%2C224%2C223%2C164%2C29%2C55%2C8%2C58%2C82%2C83%2C84%2C89%2C113%2C28%2C25%2C116%2C112%2C111%2C130%2C68%2C132%2C131%2C44%2C114%2C54%2C106%2C12%2C135%2C39%2C205%2C207%2C171%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C73%2C79%2C81%2C94%2C122%2C125%2C40%2C95%2C20%2C18%2C100%2C63%2C32%2C127%2C126%2C128%2C119%2C21%2C31%2C53%2C93%2C134%2C64%2C15%2C30%2C186%2C157%2C266%2C203%2C147%2C189%2C182%2C91%2C115%2C72%2C104%2C48%2C41%2C102%2C103%2C108%2C52%2C14%2C110%2C101%2C59%2C43%2C97%2C47%2C50%2C46%2C85%2C137%2C0%2C107%2C11%2C105%2C9%2C1%2C51%2C80%2C57%2C60%2C99%2C76%2C75%2C45%2C120%2C74%2C71%2C65%2C98%2C90%2C37%2C121%2C33%2C92%2C10%2C140" async=""></script><script type="text/javascript" async="" src="https://connect.facebook.net/en_US/fbevents.js" nonce=""></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce=""></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PKVJCKJBNL&amp;cx=c&amp;gtm=4e5a71h1" nonce=""></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/ru25hqw9x2?ref=gtm" nonce=""></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce=""></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-128043837-2&amp;cx=c&amp;gtm=4e5a71" nonce=""></script><script async="" src="https://static.ads-twitter.com/uwt.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C81OAGFQNQSIS07TNK70&amp;lib=ttq"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C81OBU11P6O4F58G2H70&amp;lib=ttq"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C6NC13BU2H2S4I7M5GH0&amp;lib=ttq"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WZRTMN4" nonce=""></script><script nonce="">
+		if (window.trustedTypes && window.trustedTypes.createPolicy) {
+			window.trustedTypes.createPolicy('default', {
+				createHTML: string => string,
+				createScriptURL: string => string,
+				createScript: string => string,
+			});
+		}
+	</script>
+    <!-- Default App Meta Tags -->
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="Software dan Aplikasi POS ( Point of sale ) untuk semua jenis usaha, membantu UMKM dengan fitur lengkap cocok untuk bisnis retail, jasa, fnb dan service. Konsultasi Sekarang Gratis">
+	<meta name="author" content="PT Majoo Teknologi Indonesia">
+	<meta property="og:image" content="https://play-lh.googleusercontent.com/5xkYQyfqxUK1euEZ3J9qAAVMWM3pXBZF1RKbnnnq1vcy3W5v5OHs-oU8NM4gZ04ykA">
+	<meta name="keywords" content="kasir pintar,kasir pintar pro,kasir pintar free,aplikasi kasir pintar,aplikasi pos,aplikasi kasir,kelola penjualan,catat penjualan bisnis,ppob,perangkat kasir">
+	
 
-        <title>Laravel</title>
+	<!-- SITE VERIFICATION -->
+	<meta name="google-site-verification" content="knyLYoVvtwdHZSu_VGFE_akonG1e2bLuDE-Nty_UTyI">
+	<meta name="facebook-domain-verification" content="7vrpfqkzpwqlbgo5bkchfwe4bk0xm2">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+		    <link rel="canonical" href="https://majoo.id/">
+	
+	
+	
+    <!-- Page Title -->
+    <title>Aplikasi POS Lengkap Pendukung UMKM Lebih Maja</title>
 
-        <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-            <style>
-                /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-left-20{left:-5rem}.top-0{top:0}.z-0{z-index:0}.\!row-span-1{grid-row:span 1 / span 1!important}.-mx-3{margin-left:-.75rem;margin-right:-.75rem}.-ml-px{margin-left:-1px}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.\!hidden{display:none!important}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-5{height:1.25rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-\[calc\(100\%_\+_8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-\[877px\]{max-width:877px}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-default{cursor:default}.resize{resize:both}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.\!flex-row{flex-direction:row!important}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-items-center{justify-items:center}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-l-md{border-top-left-radius:.375rem;border-bottom-left-radius:.375rem}.rounded-r-md{border-top-right-radius:.375rem;border-bottom-right-radius:.375rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-\[\#FF2D20\]\/10{background-color:#ff2d201a}.bg-gray-50{--tw-bg-opacity: 1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from: transparent var(--tw-gradient-from-position);--tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to: #fff var(--tw-gradient-to-position)}.to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#ff2d20}.object-cover{-o-object-fit:cover;object-fit:cover}.object-top{-o-object-position:top;object-position:top}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.pt-3{padding-top:.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.text-sm{font-size:.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-5{line-height:1.25rem}.text-black{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-black\/50{color:#00000080}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\,0\,0\,0\.08\)\]{--tw-shadow: 0px 14px 34px 0px rgba(0,0,0,.08);--tw-shadow-colored: 0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);--tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.ring-black{--tw-ring-opacity: 1;--tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1))}.ring-gray-300{--tw-ring-opacity: 1;--tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1))}.ring-transparent{--tw-ring-color: transparent}.ring-white{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.ring-white\/\[0\.05\]{--tw-ring-color: rgb(255 255 255 / .05)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.06\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\,0\,0\,0\.25\)\]{--tw-drop-shadow: drop-shadow(0px 4px 34px rgba(0,0,0,.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-150{transition-duration:.15s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.selection\:bg-\[\#FF2D20\] *::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white *::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-\[\#FF2D20\]::-moz-selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity: 1;background-color:rgb(255 45 32 / var(--tw-bg-opacity, 1))}.selection\:text-white::-moz-selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:text-black\/70:hover{color:#000000b3}.hover\:text-gray-400:hover{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.hover\:text-gray-500:hover{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.hover\:ring-black\/20:hover{--tw-ring-color: rgb(0 0 0 / .2)}.focus\:z-10:focus{z-index:10}.focus\:border-blue-300:focus{--tw-border-opacity: 1;border-color:rgb(147 197 253 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring:focus{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.active\:bg-gray-100:active{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.active\:text-gray-500:active{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.active\:text-gray-700:active{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:flex-1{flex:1 1 0%}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0}.lg\:text-\[\#FF2D20\]{--tw-text-opacity: 1;color:rgb(255 45 32 / var(--tw-text-opacity, 1))}}.rtl\:flex-row-reverse:where([dir=rtl],[dir=rtl] *){flex-direction:row-reverse}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:border-gray-600{--tw-border-opacity: 1;border-color:rgb(75 85 99 / var(--tw-border-opacity, 1))}.dark\:bg-black{--tw-bg-opacity: 1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-zinc-900{--tw-bg-opacity: 1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.dark\:via-zinc-900{--tw-gradient-to: rgb(24 24 27 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to: #18181b var(--tw-gradient-to-position)}.dark\:text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-white\/50{color:#ffffff80}.dark\:text-white\/70{color:#ffffffb3}.dark\:ring-zinc-800{--tw-ring-opacity: 1;--tw-ring-color: rgb(39 39 42 / var(--tw-ring-opacity, 1))}.dark\:hover\:text-gray-300:hover{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white:hover{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white\/70:hover{color:#ffffffb3}.dark\:hover\:text-white\/80:hover{color:#fffc}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity: 1;--tw-ring-color: rgb(63 63 70 / var(--tw-ring-opacity, 1))}.dark\:focus\:border-blue-700:focus{--tw-border-opacity: 1;border-color:rgb(29 78 216 / var(--tw-border-opacity, 1))}.dark\:focus\:border-blue-800:focus{--tw-border-opacity: 1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 45 32 / var(--tw-ring-opacity, 1))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity: 1;--tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1))}.dark\:active\:bg-gray-700:active{--tw-bg-opacity: 1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:active\:text-gray-300:active{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}}
-            </style>
-        @endif
-    </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-            <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
-            <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
-                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
-                        <div class="flex lg:justify-center lg:col-start-2">
-                            <svg class="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]" viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="currentColor"/></svg>
-                        </div>
-                        @if (Route::has('login'))
-                            <nav class="-mx-3 flex flex-1 justify-end">
-                                @auth
-                                    <a
-                                        href="{{ url('/dashboard') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Dashboard
-                                    </a>
-                                @else
-                                    <a
-                                        href="{{ route('login') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Log in
-                                    </a>
+    <!-- GOOGLE FONT PRECONNECT -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="https://portal-gcs-cdn.majoo.id/v2/favicon.png">
+	<!-- Font Awesome v5.6.1 CSS DEPENDENCIES -->
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/font-awesome/css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/font-awesome/css/fontawesome.min.css" type="text/css">
+    <!-- Simple Pagination CSS DEPENDENCIES -->
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/simple-pagination.css" type="text/css">
+    <!-- Bootstrap v5.0.2 -->
+    <link rel="stylesheet" href="https://majoo.id/assets/local/css/bootstrap.min.css" type="text/css">
+    <!-- Majoo Global CSS Files -->
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/global.css?version=2.90.2" type="text/css">
+	<!-- Majoo Global Components Files -->
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/theme.css?version=2.90.2" type="text/css">
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/components.css?version=2.90.2" type="text/css">
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/components-res.css?version=2.90.2" type="text/css">
+	<!-- <link rel="stylesheet" href="https://majoo.id/assets/local/css/pages/majoo-news.css?version=2.90.2" type="text/css" /> -->
+    <!-- Flickity v2.3.0 -->
+    <!-- <link rel="stylesheet" href="https://majoo.id/assets/local/css/flickity-custom.css" type="text/css" /> -->
+	<link rel="stylesheet" href="https://majoo.id/assets/local/css/mj-slider.css?version=2.90.2" type="text/css">
+	<!-- Additional CSS Files for Page -->
+			<link rel="stylesheet" href="https://majoo.id/assets/local/css/pages/homepage.css?version=2.90.2" type="text/css">
+		
+    <!-- reCAPTCHA -->
+    <script nonce="" src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <!-- JQUERY v3.6.4 -->
+	<script nonce="" src="https://majoo.id/assets/local/js/jquery.min.js"></script>
+    <!-- Simple Pagination Core JS -->
+    <script nonce="" src="https://majoo.id/assets/local/js/simple-pagination.js"></script>
+    <!-- Invitational JS -->
+    <script nonce="" src="https://majoo.id/assets/local/js/invitational.js"></script>
+	<!-- Majoo Core JS -->
+	<script nonce="">
+		window.MJ_CONFIG = {
+			BASE_URL: 'https://majoo.id/',
+			GCS_URL: 'https://portal-gcs-cdn.majoo.id/'
+		};
+	</script>
+	<script nonce="" src="https://majoo.id/assets/local/js/majoo-core.js?version=2.90.2"></script>
+    <!-- Flickity v2.3.0 -->
+    <script nonce="" src="https://majoo.id/assets/local/js/flickity.min.js"></script>
+	<!-- Moment JS 2.29.4 -->
+	<script nonce="" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+	<!-- Lazy v1.7.6 -->
+	<script nonce="" src="https://majoo.id/assets/local/js/jquery.lazy.min.js"></script>
 
-                                    @if (Route::has('register'))
-                                        <a
-                                            href="{{ route('register') }}"
-                                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                        >
-                                            Register
-                                        </a>
-                                    @endif
-                                @endauth
-                            </nav>
-                        @endif
-                    </header>
+	<!-- Google Tag Manager -->
+	<script nonce="">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+	n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WZRTMN4');</script>
+	<!-- End Google Tag Manager -->
 
-                    <main class="mt-6">
-                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
-                            <a
-                                href="https://laravel.com/docs"
-                                id="docs-card"
-                                class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div id="screenshot-container" class="relative flex w-full flex-1 items-stretch">
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-light.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.06)] dark:hidden"
-                                        onerror="
-                                            document.getElementById('screenshot-container').classList.add('!hidden');
-                                            document.getElementById('docs-card').classList.add('!row-span-1');
-                                            document.getElementById('docs-card-content').classList.add('!flex-row');
-                                            document.getElementById('background').classList.add('!hidden');
-                                        "
-                                    />
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-dark.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
-                                    />
-                                    <div
-                                        class="absolute -bottom-16 -left-16 h-40 w-[calc(100%_+_8rem)] bg-gradient-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
-                                    ></div>
-                                </div>
+	<!-- CODE TRACK FOR TIKTOK -->
+	<script nonce="">
+		!function (w, d, t) {
+			w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+			)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+		
+			ttq.load('C6NC13BU2H2S4I7M5GH0');
+			ttq.page();
+		}(window, document, 'ttq');
+	</script>
+	<script nonce="">
+		!function (w, d, t) {
+			w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+			)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+		
+			ttq.load('C81OBU11P6O4F58G2H70');
+			ttq.page();
+		}(window, document, 'ttq');
+	</script>
+	<script nonce="">
+		!function (w, d, t) {
+			w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+			)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+		
+			ttq.load('C81OAGFQNQSIS07TNK70');
+			ttq.page();
+		}(window, document, 'ttq');
+	</script>
+	<!-- END TIKTOK CODE -->
 
-                                <div class="relative flex items-center gap-6 lg:items-end">
-                                    <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
-                                        <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                            <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FF2D20" d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z"/><path fill="#FF2D20" d="m3.55 1.893 8 4.048a1.008 1.008 0 0 0 .9 0l8-4.048a1 1 0 0 0-.9-1.785l-7.322 3.706a.506.506 0 0 1-.452 0L4.454.108a1 1 0 0 0-.9 1.785H3.55Z"/></svg>
-                                        </div>
+	<!-- Twitter universal website tag code -->
+	<script nonce="">
+		!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+		},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+		a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+		// Insert Twitter Pixel ID and Standard Event data below
+		twq('init','o7sr8');
+		twq('track','PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
 
-                                        <div class="pt-3 sm:pt-5 lg:pt-0">
-                                            <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script nonce="" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-128043837-2"></script>
 
-                                            <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                            </p>
-                                        </div>
+	<script nonce="">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-128043837-2');
+		// Call from Mobile-web
+		gtag('config', 'AW-990746822');
+	</script>
+
+	<!-- EXTERNAL META CONFIGURATION -->
+		<!-- Twitter Meta Configuration -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="majoo.id">
+	<meta property="twitter:url" content="https://majoo.id/">
+	<meta name="twitter:title" content="Aplikasi POS Lengkap Pendukung UMKM Lebih Maju">
+	<meta name="twitter:description" content="Software dan Aplikasi POS ( Point of sale ) untuk semua jenis usaha, membantu UMKM dengan fitur lengkap cocok untuk bisnis retail, jasa, fnb dan service. Konsultasi Sekarang Gratis">
+	<meta name="twitter:image" content="https://play-lh.googleusercontent.com/5xkYQyfqxUK1euEZ3J9qAAVMWM3pXBZF1RKbnnnq1vcy3W5v5OHs-oU8NM4gZ04ykA">
+	<!-- End Twitter Meta Configuration -->
+
+	<!-- Facebook Meta Config -->
+	<meta property="og:url" content="https://majoo.id/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Aplikasi POS Lengkap Pendukung UMKM Lebih Maju">
+	<meta property="og:description" content="Software dan Aplikasi POS ( Point of sale ) untuk semua jenis usaha, membantu UMKM dengan fitur lengkap cocok untuk bisnis retail, jasa, fnb dan service. Konsultasi Sekarang Gratis">
+	<meta property="og:image" content="https://play-lh.googleusercontent.com/5xkYQyfqxUK1euEZ3J9qAAVMWM3pXBZF1RKbnnnq1vcy3W5v5OHs-oU8NM4gZ04ykA">
+	<!-- End Facebook Meta Config -->
+		<!-- END EXTERNAL META CONFIGURATION -->
+
+	<!-- Google tag (gtag.js) -->
+	<script nonce="" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-990746822"></script>
+	<script nonce="">
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'AW-990746822');
+	</script>
+<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990746822/?random=1759994260212&amp;cv=11&amp;fst=1759994260212&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be5a71v9103616350za200zd9103616350xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709~115834636~115834638&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fmajoo.id%2F&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;frm=0&amp;tiba=Aplikasi%20POS%20Lengkap%20Pendukung%20UMKM%20Lebih%20Maju&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=728756759.1759994260&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B141.0.7390.56%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.56&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" nonce=""></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11022924139/?random=1759994260233&amp;cv=11&amp;fst=1759994260233&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be5a71v9103616350za200zd9103616350xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709~115834636~115834638&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fmajoo.id%2F&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;frm=0&amp;tiba=Aplikasi%20POS%20Lengkap%20Pendukung%20UMKM%20Lebih%20Maju&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=728756759.1759994260&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B141.0.7390.56%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.56&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" nonce=""></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11036044894/?random=1759994260236&amp;cv=11&amp;fst=1759994260236&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be5a71v9103616350za200zd9103616350xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709~115834636~115834638&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fmajoo.id%2F&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;frm=0&amp;tiba=Aplikasi%20POS%20Lengkap%20Pendukung%20UMKM%20Lebih%20Maju&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=728756759.1759994260&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B141.0.7390.56%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.56&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" nonce=""></script></head>
+<body class="">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZRTMN4"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="wrapper">
+									<header class="">
+    <div class="top-header ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-3 th-item">
+                    <label>
+                        majoo Care
+                    </label>
+                    <a href="https://wa.me/62811500460" class="span-text">
+                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/whatsapp-header.svg" alt="logo header phone">
+                        0811 500 460
+                    </a>
+                </div>
+                <div class="col-xl-6 text-center th-item">
+                    <a id="sticky-popup-holder" class="header-banner-text pp-promo show" href="#">
+                        <span class="mj-capsule">Diskon 50%</span>
+                        Semua Paket majoo <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-0 col-xl-3 text-end">
                                     </div>
-
-                                    <svg class="size-6 shrink-0 stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
+            </div>
+        </div>
+    </div>
+    <div class="main-header">
+        <div class="container"> 
+            <div class="row align-items-center">
+                <div class="col-10 col-lg-2">
+                    <a href="https://majoo.id/" class="main-logo-holder">
+                        <img id="img-header-logo" src="https://portal-gcs-cdn.majoo.id/v2/logo/main-logo-hires.png" alt="logo majoo main" class="main-logo">
+                    </a>
+                </div>
+                <div class="col-2 col-lg-7">
+                    <a href="#" class="header-menu-trigger"><i class="fas fa-bars"></i></a>
+                    <div class="main-navigation">
+                        <div class="main-navigation-content">
+                            <ul class="header-menu">
+                                <li>
+                                    <a href="#" class="mega-menu-trigger">
+                                        Produk
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <div class="mega-menu-container">
+    <div class="container mega-menu-inner">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="mega-menu-category">
+                    <h2>Produk</h2>
+                    <p>Temukan informasi produk dan fitur majoo lebih lanjut.</p>
+                    <a href="https://majoo.id/produk" class="mj-button mj-primary-btn sm">
+                        Lebih lanjut <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="mega-menu-category-footer">
+                        <a href="https://majoo.id/kenapa-pilih-majoo" class="mega-menu-nav-more">Kenapa pilih majoo? <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://majoo.id/informasi-update" class="mega-menu-nav-more">Update produk majoo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mega-menu-item-holder">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mega-menu-item">
+                                <div class="mega-menu-item-header">
+                                    <h3>Fitur aplikasi</h3>
+                                    <div class="ln"></div>
                                 </div>
-                            </a>
-
-                            <a
-                                href="https://laracasts.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M24 8.25a.5.5 0 0 0-.5-.5H.5a.5.5 0 0 0-.5.5v12a2.5 2.5 0 0 0 2.5 2.5h19a2.5 2.5 0 0 0 2.5-2.5v-12Zm-7.765 5.868a1.221 1.221 0 0 1 0 2.264l-6.626 2.776A1.153 1.153 0 0 1 8 18.123v-5.746a1.151 1.151 0 0 1 1.609-1.035l6.626 2.776ZM19.564 1.677a.25.25 0 0 0-.177-.427H15.6a.106.106 0 0 0-.072.03l-4.54 4.543a.25.25 0 0 0 .177.427h3.783c.027 0 .054-.01.073-.03l4.543-4.543ZM22.071 1.318a.047.047 0 0 0-.045.013l-4.492 4.492a.249.249 0 0 0 .038.385.25.25 0 0 0 .14.042h5.784a.5.5 0 0 0 .5-.5v-2a2.5 2.5 0 0 0-1.925-2.432ZM13.014 1.677a.25.25 0 0 0-.178-.427H9.101a.106.106 0 0 0-.073.03l-4.54 4.543a.25.25 0 0 0 .177.427H8.4a.106.106 0 0 0 .073-.03l4.54-4.543ZM6.513 1.677a.25.25 0 0 0-.177-.427H2.5A2.5 2.5 0 0 0 0 3.75v2a.5.5 0 0 0 .5.5h1.4a.106.106 0 0 0 .073-.03l4.54-4.543Z"/></g></svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laracasts</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
-
-                            <a
-                                href="https://laravel-news.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M8.75 4.5H5.5c-.69 0-1.25.56-1.25 1.25v4.75c0 .69.56 1.25 1.25 1.25h3.25c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25Z"/><path d="M24 10a3 3 0 0 0-3-3h-2V2.5a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2V20a3.5 3.5 0 0 0 3.5 3.5h17A3.5 3.5 0 0 0 24 20V10ZM3.5 21.5A1.5 1.5 0 0 1 2 20V3a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 .5.5v17c0 .295.037.588.11.874a.5.5 0 0 1-.484.625L3.5 21.5ZM22 20a1.5 1.5 0 1 1-3 0V9.5a.5.5 0 0 1 .5-.5H21a1 1 0 0 1 1 1v10Z"/><path d="M12.751 6.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 7.3v-.5a.75.75 0 0 1 .751-.753ZM12.751 10.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 11.3v-.5a.75.75 0 0 1 .751-.753ZM4.751 14.047h10a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-10A.75.75 0 0 1 4 15.3v-.5a.75.75 0 0 1 .751-.753ZM4.75 18.047h7.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-7.5A.75.75 0 0 1 4 19.3v-.5a.75.75 0 0 1 .75-.753Z"/></g></svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laravel News</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
-
-                            <div class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <g fill="#FF2D20">
-                                            <path
-                                                d="M16.597 12.635a.247.247 0 0 0-.08-.237 2.234 2.234 0 0 1-.769-1.68c.001-.195.03-.39.084-.578a.25.25 0 0 0-.09-.267 8.8 8.8 0 0 0-4.826-1.66.25.25 0 0 0-.268.181 2.5 2.5 0 0 1-2.4 1.824.045.045 0 0 0-.045.037 12.255 12.255 0 0 0-.093 3.86.251.251 0 0 0 .208.214c2.22.366 4.367 1.08 6.362 2.118a.252.252 0 0 0 .32-.079 10.09 10.09 0 0 0 1.597-3.733ZM13.616 17.968a.25.25 0 0 0-.063-.407A19.697 19.697 0 0 0 8.91 15.98a.25.25 0 0 0-.287.325c.151.455.334.898.548 1.328.437.827.981 1.594 1.619 2.28a.249.249 0 0 0 .32.044 29.13 29.13 0 0 0 2.506-1.99ZM6.303 14.105a.25.25 0 0 0 .265-.274 13.048 13.048 0 0 1 .205-4.045.062.062 0 0 0-.022-.07 2.5 2.5 0 0 1-.777-.982.25.25 0 0 0-.271-.149 11 11 0 0 0-5.6 2.815.255.255 0 0 0-.075.163c-.008.135-.02.27-.02.406.002.8.084 1.598.246 2.381a.25.25 0 0 0 .303.193 19.924 19.924 0 0 1 5.746-.438ZM9.228 20.914a.25.25 0 0 0 .1-.393 11.53 11.53 0 0 1-1.5-2.22 12.238 12.238 0 0 1-.91-2.465.248.248 0 0 0-.22-.187 18.876 18.876 0 0 0-5.69.33.249.249 0 0 0-.179.336c.838 2.142 2.272 4 4.132 5.353a.254.254 0 0 0 .15.048c1.41-.01 2.807-.282 4.117-.802ZM18.93 12.957l-.005-.008a.25.25 0 0 0-.268-.082 2.21 2.21 0 0 1-.41.081.25.25 0 0 0-.217.2c-.582 2.66-2.127 5.35-5.75 7.843a.248.248 0 0 0-.09.299.25.25 0 0 0 .065.091 28.703 28.703 0 0 0 2.662 2.12.246.246 0 0 0 .209.037c2.579-.701 4.85-2.242 6.456-4.378a.25.25 0 0 0 .048-.189 13.51 13.51 0 0 0-2.7-6.014ZM5.702 7.058a.254.254 0 0 0 .2-.165A2.488 2.488 0 0 1 7.98 5.245a.093.093 0 0 0 .078-.062 19.734 19.734 0 0 1 3.055-4.74.25.25 0 0 0-.21-.41 12.009 12.009 0 0 0-10.4 8.558.25.25 0 0 0 .373.281 12.912 12.912 0 0 1 4.826-1.814ZM10.773 22.052a.25.25 0 0 0-.28-.046c-.758.356-1.55.635-2.365.833a.25.25 0 0 0-.022.48c1.252.43 2.568.65 3.893.65.1 0 .2 0 .3-.008a.25.25 0 0 0 .147-.444c-.526-.424-1.1-.917-1.673-1.465ZM18.744 8.436a.249.249 0 0 0 .15.228 2.246 2.246 0 0 1 1.352 2.054c0 .337-.08.67-.23.972a.25.25 0 0 0 .042.28l.007.009a15.016 15.016 0 0 1 2.52 4.6.25.25 0 0 0 .37.132.25.25 0 0 0 .096-.114c.623-1.464.944-3.039.945-4.63a12.005 12.005 0 0 0-5.78-10.258.25.25 0 0 0-.373.274c.547 2.109.85 4.274.901 6.453ZM9.61 5.38a.25.25 0 0 0 .08.31c.34.24.616.561.8.935a.25.25 0 0 0 .3.127.631.631 0 0 1 .206-.034c2.054.078 4.036.772 5.69 1.991a.251.251 0 0 0 .267.024c.046-.024.093-.047.141-.067a.25.25 0 0 0 .151-.23A29.98 29.98 0 0 0 15.957.764a.25.25 0 0 0-.16-.164 11.924 11.924 0 0 0-2.21-.518.252.252 0 0 0-.215.076A22.456 22.456 0 0 0 9.61 5.38Z"
-                                            />
-                                        </g>
-                                    </svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Vibrant Ecosystem</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white dark:focus-visible:ring-[#FF2D20]">Forge</a>, <a href="https://vapor.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Vapor</a>, <a href="https://nova.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Nova</a>, <a href="https://envoyer.io" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Envoyer</a>, and <a href="https://herd.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Herd</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Echo</a>, <a href="https://laravel.com/docs/horizon" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Telescope</a>, and more.
-                                    </p>
+                                <div class="mega-menu-item-body">
+                                    <ul class="mm-capsule">
+                                        <li><a href="https://majoo.id/aplikasi-kasir-online" class="mj-capsule kasir-online">Kasir Online <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-keuangan" class="mj-capsule akuntansi">Akuntansi <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-crm" class="mj-capsule aplikasi-crm">Aplikasi CRM <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-owner" class="mj-capsule aplikasi-owner">Aplikasi Owner <i class="fas fa-arrow-right"></i></a></li>
+                                    </ul>
+                                    <ul class="mm-capsule">
+                                        <li><a href="https://majoo.id/aplikasi-karyawan" class="mj-capsule karyawan">Karyawan <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-inventori" class="mj-capsule inventori">Inventori <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-analisa-bisnis" class="mj-capsule analisa-bisnis">Analisa Bisnis <i class="fas fa-arrow-right"></i></a></li>
+                                        <li><a href="https://majoo.id/aplikasi-toko-online" class="mj-capsule toko-online">Toko Online <i class="fas fa-arrow-right"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </main>
-
-                    <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </footer>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mega-menu-item mt-3">
+                                <div class="mega-menu-item-header">
+                                    <h3>Produk Prime</h3>
+                                    <div class="ln"></div>
+									<a href="https://majoo.id/prime" class="mega-menu-nav-more">Lihat semua <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="mega-menu-item-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row g-2 gy-3">
+                                                <div class="col-lg-3">
+                                                    <a class="mj-capsule prime-capsule w-100" href="https://majoo.id/prime/fnb">
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/mainlogo-prime.png" alt="main logo prime">
+                                                        <span>Prime FnB</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-capsule prime-capsule w-100" href="https://majoo.id/prime/jasa">
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/mainlogo-prime.png" alt="main logo prime">
+                                                        <span>Prime Jasa</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-capsule prime-capsule w-100" href="https://majoo.id/prime/retail">
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/mainlogo-prime.png" alt="main logo prime">
+                                                        <span>Prime Retail</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-capsule prime-capsule w-100" href="https://majoo.id/prime/beauty">
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/mainlogo-prime.png" alt="main logo prime">
+                                                        <span>Prime Beauty</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mega-menu-item mt-3">
+                                <div class="mega-menu-item-header">
+                                    <h3>Produk Pendukung</h3>
+                                    <div class="ln"></div>
+									<a href="https://majoo.id/produk/produk-pendukung" class="mega-menu-nav-more">Lihat semua <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="mega-menu-item-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row g-2 gy-3">
+                                                <div class="col-lg-3">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/satu-sehat" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Integrasi Satu Sehat</span>
+                                                        <div class="mega-menu-nav-card-inner">
+                                                            <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-paygo.png" alt="icon majoo satu sehat">
+                                                            <label>majoo Satu Sehat</label>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoo-order-display" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Layanan informasi pesanan</span>
+                                                        <div class="mega-menu-nav-card-inner">
+                                                            <img src="https://portal-gcs-cdn.majoo.id/v2/logo/logo-majoo-order-display.png" alt="icon monitor">
+                                                            <label>majoo Order Display</label>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/toko-online" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Integrasi Marketplace</span>
+                                                        <div class="mega-menu-nav-card-inner">
+                                                            <img src="https://portal-gcs-cdn.majoo.id/v2/logo/logo-majoo-omni-square.png" alt="icon monitor">
+                                                            <label>majoo Omnichannel</label>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/consumer-app" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Aplikasi Mobile</span>
+                                                        <div class="mega-menu-nav-card-inner">
+                                                            <img src="https://portal-gcs-cdn.majoo.id/v2/logo/logo-majoo-consumer-square.png" alt="icon mobile">
+                                                            <label>majoo Consumer App</label>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                                                                <!-- <div class="col-lg-3">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoo-api" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Integrasi ERP</span>
+                                                        <div class="mega-menu-nav-card-inner">
+                                                            <img src="https://portal-gcs-cdn.majoo.id/v2/logo/logo-majoo-api-square.png" alt="icon user">
+                                                            <label>majoo API</label>
+                                                        </div>
+                                                    </a>
+                                                </div> -->
+                                                                                            </div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</div>
+
+                                </li>
+                                <li>
+                                    <a href="#" class="mega-menu-trigger">
+                                        Layanan
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <div class="mega-menu-container">
+    <div class="container mega-menu-inner">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="mega-menu-category">
+                    <h2>Layanan</h2>
+                    <p>Kembangkan bisnis dengan layanan dan bimbingan.</p>
+                    <a href="https://majoo.id/layanan" class="mj-button mj-primary-btn">
+                        Lebih lanjut <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mega-menu-item-holder">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mega-menu-item">
+                                <div class="mega-menu-item-header">
+                                    <h3>Majoo Grow</h3>
+                                    <div class="ln"></div>
+                                    <a href="https://majoo.id/majoo-grow" class="mega-menu-nav-more">Lihat semua <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="mega-menu-item-body">
+                                    <div class="row g-2 gy-3">
+                                        <div class="col-lg">
+                                            <a class="mj-card-display soft" href="https://majoo.id/layanan/franchise" style="padding: 10px; border-radius: 12px;">
+                                                <span class="mj-capsule xs mb-3">Kemitraan</span>
+                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-franchise.png" alt="logo layanan" style="height: 20px; margin-bottom: 0; width: auto; display: block;">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg">
+                                            <a class="mj-card-display soft" href="https://majoo.id/layanan/majoo-pay" style="padding: 10px; border-radius: 12px;">
+                                                <span class="mj-capsule xs mb-3">Pembayaran</span>
+                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-pay.png" alt="logo layanan" style="height: 20px; margin-bottom: 0; width: auto; display: block;">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg">
+                                            <a class="mj-card-display soft" href="https://majoo.id/layanan/majoo-capital" style="padding: 10px; border-radius: 12px;">
+                                                <span class="mj-capsule xs mb-3">Permodalan</span>
+                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-capital.png" alt="logo capital" style="height: 20px; margin-bottom: 0; width: auto; display: block;">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg">
+                                            <a class="mj-card-display soft" href="https://majoo.id/layanan/majoo-supplies" style="padding: 10px; border-radius: 12px;">
+                                                <span class="mj-capsule xs mb-3">Belanja Stok</span>
+                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-supplies.png" alt="logo supplies" style="height: 20px; margin-bottom: 0; width: auto; display: block;">
+                                            </a>
+                                        </div>
+                                                                                <div class="col-lg">
+                                            <a class="mj-card-display soft" href="https://majoo.id/layanan/majoo-ads" style="padding: 10px; border-radius: 12px;">
+                                                <span class="mj-capsule xs mb-3">Iklan Digital</span>
+                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/new-majoo-ads.png" alt="logo ads" style="height: 20px; margin-bottom: 0; width: auto; display: block;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="mega-menu-item">
+                                <div class="mega-menu-item-header">
+                                    <h3>majoowira</h3>
+                                    <div class="ln"></div>
+                                    <a href="https://majoo.id/majoowira" class="mega-menu-nav-more">Lihat semua <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="mega-menu-item-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row g-2 gy-3">
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoowira/mentorship" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Mentoring Bisnis</span>
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-mentor.png" alt="logo-mentor" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoowira/kompetisi" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Kompetisi Bisnis</span>
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-kompetisi.png" alt="logo-mentor" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoowira/kelas-majoo" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Kelas Bisnis</span>
+                                                                                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-ruang.png" alt="logo-mentor" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoowira/pustaka" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Majalah Bisnis</span>
+                                                                                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-pustaka.png" alt="logo-mentor" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/blog" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Blog</span>
+                                                                                                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-inspirasi.png" alt="logo-mentor" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="mega-menu-item">
+                                <div class="mega-menu-item-header">
+                                    <h3>majoo expert</h3>
+                                    <div class="ln"></div>
+                                    <a href="https://majoo.id/expert" class="mega-menu-nav-more">Lihat semua <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="mega-menu-item-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row g-2 gy-3">
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoo-expert/accounting" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Jasa Akuntansi &amp; Pajak</span>
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/img/majoo-expert-accounting/logo.png" alt="logo layanan" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <a class="mj-card-display soft" href="https://majoo.id/majoo-expert/legal" style="padding: 10px; border-radius: 12px;">
+                                                        <span class="mj-capsule xs mb-3">Jasa Legalitas &amp; Izin Usaha</span>
+                                                        <img src="https://portal-gcs-cdn.majoo.id/v2/img/majoo-expert-legal/logo.png" alt="logo layanan" class="img-logo-bimbingan">
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg"></div>
+                                                <div class="col-lg"></div>
+                                                <div class="col-lg"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                </li>
+                                <li>
+                                    <a href="#" class="mega-menu-trigger">
+                                        Solusi Bisnis
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <div class="mega-menu-container">
+    <div class="container mega-menu-inner">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="mega-menu-category">
+                    <h2>Solusi Bisnis</h2>
+                    <p>Semua solusi untuk segala jenis bisnismu.</p>
+                    <a href="https://majoo.id/solusi-bisnis" class="mj-button mj-primary-btn">
+                        Lebih lanjut <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="mega-menu-category-footer">
+                        <div class="mj-card-display soft green" style="height: fit-content;">
+                            <span class="mj-capsule new">New</span>
+                            <h3 class="mj-subtitle-text xs mt-3 mb-2">Aplikasi Mobile Custom</h3>
+                            <p class="mj-desc-text mb-2">
+                                Miliki Aplikasi Penjualan &amp; Loyalty, Tingkatkan Retensi dan Percepat Transaksi
+                            </p>
+                            <a href="https://majoo.id/solusi-bisnis/enterprise/aplikasi-mobile-custom" class="mega-menu-nav-more">
+                                Pelajari lebih lanjut
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mega-menu-item-holder">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mega-menu-item">
+                                                                <div class="mega-menu-item-body">
+                                    <div class="row g-2">
+                                        <div class="col-lg">
+                                            <div class="mega-menu-accordion-body">
+                                                <label>
+                                                    Food &amp; Beverages
+                                                    <span class="ln"></span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </label>
+                                                <div class="mega-menu-accordion-content">
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=quick-services">Quick Services</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=resto-full-service">Resto Full Service</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=fast-casual-fnb">Fast Casual FnB</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=coffee-shops">Coffee Shops</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=cloud-kitchen">Cloud Kitchen</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=foodcourt">Foodcourt</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages?section=lounge-and-bar">Lounge &amp; Bar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="mega-menu-accordion-body">
+                                                <label>
+                                                    Toko Retail
+                                                    <span class="ln"></span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </label>
+                                                <div class="mega-menu-accordion-content">
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=clothing-acc">Clothing &amp; Accessories</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=toko-elektronik">Toko Elektronik</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=grosir-minimarket">Grosir &amp; Minimarket</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=toko-online">Toko Online</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=gadget-accessories">Gadget &amp; Accessories</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=toko-bangunan">Toko Bangunan</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=furniture">Furniture &amp; Rumah Tangga</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=apotek-toko-obat">Apotek &amp; Toko Obat</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=distributor">Distributor</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=popup-store">Popup Store</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=toko-buah">Toko Buah</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=design-percetakan">Design &amp; Percetakan</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail?section=toko-hobby">Toko Hobby</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="mega-menu-accordion-body">
+                                                <label>
+                                                    Beauty
+                                                    <span class="ln"></span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </label>
+                                                <div class="mega-menu-accordion-content">
+                                                    <a href="https://majoo.id/solusi-bisnis/beauty?section=salon-kecantikan">Salon Kecantikan</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/beauty?section=barbershop">Barbershop</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/beauty?section=klinik-kesehatan">Klinik &amp; Kesehatan</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/beauty?section=day-spa">Day Spa</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/beauty?section=pet-shop">Pet Shops</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="mega-menu-accordion-body">
+                                                <label>
+                                                    Jasa
+                                                    <span class="ln"></span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </label>
+                                                <div class="mega-menu-accordion-content">
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=laundry">Laundry</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=car-wash">Car Wash</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=reparasi">Reparasi</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=bengkel">Bengkel &amp; Spareparts</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=jasa-professional">Jasa Profesional</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=sport-fitness">Sport &amp; Fitness</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=penginapan">Penginapan</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=parkir-reservasi">Parkir &amp; Reservasi</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=playground">Playground</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional?section=day-care">Daycare</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="mega-menu-accordion-body">
+                                                <label>
+                                                    Enterprise
+                                                    <span class="ln"></span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </label>
+                                                <div class="mega-menu-accordion-content">
+                                                    <a href="https://majoo.id/solusi-bisnis/enterprise?section=multibrand">Multibrand</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/enterprise?section=franchise">Franchise</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/enterprise?section=jaringan-distribusi">Jaringan Distribusi</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/enterprise?section=solusi-khusus">Solusi Khusus</a>
+                                                    <a href="https://majoo.id/solusi-bisnis/enterprise/aplikasi-mobile-custom">Aplikasi Mobile Custom</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                </li>
+                                <li>
+                                    <a href="https://majoo.id/harga">
+                                        Harga
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="mega-menu-trigger">
+                                        Support
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <div class="mega-menu-container">
+    <div class="container">
+        <div class="d-flex">
+            <div class="w-custom-menu">        
+                <div class="mega-menu-inner support">
+                    <div class="mega-menu-category support">
+                        <div class="mega-menu-category-footer">
+                            <a href="https://majoo.id/majoo-care" class="mega-menu-nav-more">majoo Care</a>
+                            <a href="https://majoo.id/hubungi-kami" class="mega-menu-nav-more">Hubungi Kami</a>
+                            <a href="https://majoo.id/faq" class="mega-menu-nav-more">Frequently Asked Question</a>
+                            <a href="https://majoo.id/panduan-pengguna" class="mega-menu-nav-more">Panduan Pengguna</a>
+                                                        <a href="https://www.youtube.com/playlist?list=PLWgKpDK6PDefDoM572a8u8LX4bZo1uoyS" class="mega-menu-nav-more" target="_blank">Video Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                </li>
+                                <li>
+                                    <a href="https://majoo.id/demo-majoo">
+                                        Demo majoo
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-navigation-footer">
+                            <a href="https://dashboard.majoo.id/auth/register" class="mj-button mj-primary-btn" target="_blank">
+                                Coba Gratis
+                            </a>
+                            <a href="https://dashboard.majoo.id/auth/login" class="mj-button mj-solid-white-btn" target="_blank">
+                                Masuk
+                            </a>
+                            <div class="header-info">
+                                <label>
+                                    majoo Care
+                                </label>
+                                <a href="https://wa.me/62811500460" class="span-text">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/icon/whatsapp-header.svg" alt="logo header phone">
+                                    0811 500 460
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-0 col-lg-3 text-end">
+                    <div class="header-right-container">
+                        <a href="https://dashboard.majoo.id/auth/login" class="mj-button mj-naked-btn xs" target="_blank">
+                            Masuk
+                        </a>
+                        <a href="https://dashboard.majoo.id/auth/register" class="mj-button mj-primary-btn xs" target="_blank">
+                            Coba Gratis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+							<main>
+<section class="mj-hero-sline-after mj-gradient-hero mj-bg-logo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mj-section-hero-homepage">
+                <h1 class="mj-title-text text-center-lg">
+                    Aplikasi Manajemen <br>Bisnis, Operasional <br>Serba Otomatis
+                </h1>
+                <p class="mj-desc-text text-center-lg">Satu aplikasi dengan fitur lengkap untuk semua jenis usaha</p>
+                <div class="homepage-capsule-holder">
+	<span class="mj-capsule kasir-online">Kasir Online</span>
+	<span class="mj-capsule akuntansi">Akuntansi</span>
+	<span class="mj-capsule aplikasi-crm">Aplikasi CRM</span>
+	<span class="mj-capsule aplikasi-owner">Aplikasi Owner</span>
+</div>
+<div class="homepage-capsule-holder">
+	<span class="mj-capsule karyawan">Karyawan</span>
+	<span class="mj-capsule inventori">Inventori</span>
+	<span class="mj-capsule analisa-bisnis">Analisa Bisnis</span>
+	<span class="mj-capsule toko-online">Toko Online</span>
+</div>
+
+                <div class="home-section-cta text-center-lg">
+                    <a href="https://dashboard.majoo.id/auth/register" class="mj-button mj-hero-white-btn">
+                        Coba Gratis 14 Hari
+                    </a>
+                    <a href="https://majoo.id/hubungi-kami?action=demo" class="mj-button mj-hero-btn">
+                        Jadwalkan Demo
+                    </a>
+                </div>
+                <div class="home-section-cta-bottom text-center-lg">
+                    <a href="#" class="mj-anchor-nav mj-btn-goto" data-anchor="h-comparation">
+                        Kenapa harus majoo? <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 no-hpadding-on-mobile">
+                <div class="homepage-slider-wrapper">
+                    <div class="homepage-slider-inner">
+                        <div class="homepage-slider-item">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/retina/slider/home-hero-slider-services-4.jpg" alt="Hero Image" id="hero-image" loading="lazy">
+                            <div class="homepage-slider-caption">
+                                <div class="homepage-slider-navigation">
+                                    <div class="homepage-navigation-item" data-target="fnb">
+                                        <span class="show-desktop">Food &amp; Beverage</span>
+                                        <span class="show-mobile">F&amp;B</span>
+                                    </div>
+                                    <div class="homepage-navigation-item" data-target="retail">
+                                        Toko Retail
+                                    </div>
+                                    <div class="homepage-navigation-item active" data-target="jasa">
+                                        Services
+                                    </div>
+                                    <div class="homepage-navigation-item" data-target="beauty">
+                                        Beauty
+                                    </div>
+                                </div>
+                                <di class="homepage-slider-content">
+                                    <div class="" data-img="home1" id="fnb">
+                                        <h3 class="mj-title-text xxs">Resto Full Service</h3>
+                                        <p class="mj-desc-text">Dengan sistem Local Server, pesanan yang diorder dari device waitress hingga table order masuk ke dapur secara otomatis</p>
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/retina/slider/home-hero-slider-fnb-1.jpg" alt="hero slide 1">
+                                    </div>
+                                    <div data-img="home1" id="retail" class="">
+                                        <h3 class="mj-title-text xxs">Boutique</h3>
+                                        <p class="mj-desc-text">Mudahnya kelola varian items pada dashboard dengan harga yang berbeda untuk setiap jenis model pakaian</p>
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/retina/slider/home-hero-slider-retail-2.jpg" alt="hero slide 2">
+                                    </div>
+                                    <div data-img="home1" id="jasa" class="active">
+                                        <h3 class="mj-title-text xxs">Sports &amp; Fitness</h3>
+                                        <p class="mj-desc-text">Tingkatkan loyalitas pelanggan dengan program membership berupa sistem poin, promo, dan reward</p>
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/retina/slider/home-hero-slider-services-4.jpg" alt="hero slide 3">
+                                    </div>
+                                    <div data-img="home1" id="beauty" class="">
+                                        <h3 class="mj-title-text xxs">Salon &amp; Barbershop</h3>
+                                        <p class="mj-desc-text">Berikan komisi untuk karyawan sesuai dengan layanan yang diberikan dan produk yang terjual, serta kemudahan cek jadwal shift dan absensi foto</p>
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/retina/slider/home-hero-slider-beauty-1.jpg" alt="hero slide 4">
+                                    </div>
+                                </di>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mj-section-lg s-line-hr-top" style="background: #F6FAF2">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-lg-10 col-xl-8">
+                <div class="mj-section-header text-center">
+                    <h2 class="mj-title-text sm">
+                        Fitur Canggih untuk Hemat <br>Biaya dan Waktu Operasional
+                    </h2>
+                    <p class="mj-desc-text">
+                        Bisnis lebih efisien dengan ragam fitur terintegrasi
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5 justify-content-center">
+            <div class="col-12 col-md-8 col-lg-4">
+                <div class="mj-card-global soft">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-kelola-transaksi.jpg" alt="Produk" loading="lazy">
+                    <div class="mj-card-content">
+                        <div class="mj-card-feature-label justify-content-center">
+                            <a href="https://majoo.id/aplikasi-kasir-online" class="mj-capsule sm kasir-online mx-1">Kasir Online</a>
+                            <a href="https://majoo.id/aplikasi-karyawan" class="mj-capsule sm karyawan mx-1">Karyawan</a>
+                            <a href="https://majoo.id/aplikasi-inventori" class="mj-capsule sm inventori mx-1">Inventori</a>
+                        </div>
+                        <h3 class="mj-title-text xxs text-center" style="margin-bottom: 16px;">Persingkat Alur Pemesanan dengan Sistem Terintegrasi</h3>
+                        <p class="mj-desc-text text-center">Tingkatkan kepuasan pelanggan dengan otomasi proses pemesanan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-4">
+                <div class="mj-card-global soft">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-kelola-karyawan.jpg" alt="Produk" loading="lazy">
+                    <div class="mj-card-content">
+                        <div class="mj-card-feature-label justify-content-center">
+                            <a href="https://majoo.id/aplikasi-owner" class="mj-capsule sm aplikasi-owner mx-1">Aplikasi Owner</a>
+                            <a href="https://majoo.id/aplikasi-analisa-bisnis" class="mj-capsule sm analisa-bisnis mx-1">Analisa Bisnis</a>
+                            <a href="https://majoo.id/aplikasi-keuangan" class="mj-capsule sm akuntansi mx-1">Akuntansi</a>
+                        </div>
+                        <h3 class="mj-title-text xxs text-center" style="margin-bottom: 16px;">Pantau Performa Bisnis Hanya dari Genggaman</h3>
+                        <p class="mj-desc-text text-center">Dapatkan analisa bisnis dari 30+ laporan penjualan dan keuangan dengan akses khusus owner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-4">
+                <div class="mj-card-global soft">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-kelola-promo.jpg" alt="Produk" loading="lazy">
+                    <div class="mj-card-content">
+                        <div class="mj-card-feature-label justify-content-center">
+                            <a href="https://majoo.id/aplikasi-toko-online" class="mj-capsule sm toko-online mx-1">Toko Online</a>
+                            <a href="https://majoo.id/aplikasi-crm" class="mj-capsule sm aplikasi-crm mx-1">Aplikasi CRM</a>
+                        </div>
+                        <h3 class="mj-title-text xxs text-center" style="margin-bottom: 16px;">Kembangkan Bisnis Offline dan Online Lebih Mudah</h3>
+                        <p class="mj-desc-text text-center">Maksimalkan omzet bisnis dengan program loyalti membership dan integrasi platform penjualan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <a href="https://majoo.id/produk" class="read-more-section">Pelajari fitur majoo lebih lanjut <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+<section class="mj-section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mj-testimony-holder mj-gradient-bg-green-rad">
+                    <div class="row">
+                        <div class="col-lg-6">
+							<div class="mj-testimony-img">
+                                <div class="mj-videoplayer">
+                                    <a href="#" data-video="btlLfVkoj3g">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/vt/vt-testimony.jpg" alt="VT Testimony" class="img-vt">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/play-btn.svg" alt="Icon Play" class="img-vt-overlay">
+                                    </a>
+                                                                    </div>
+							</div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mj-testimony-caption">
+                                <label>Saatnya majukan bisnismu bersama majoo</label>
+                                <h3 class="mj-title-text">Lebih dari 45.000 wirausaha di 600 kota sudah bertumbuh bersama majoo</h3>
+                                <a href="https://www.youtube.com/watch?v=btlLfVkoj3g" target="_blank" class="mega-menu-nav-more">Apa kata mereka tentang majoo? <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mj-testimony-extra">
+                    <ul class="list-logo">
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/logo-burger-bangor.png" alt="Logo" loading="lazy"></li>
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/logo-popcorn.png" alt="Logo" loading="lazy"></li>
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/logo-hotdog-booth.png" alt="Logo" loading="lazy"></li>
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/smooch.png" alt="Logo" loading="lazy"></li>
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/5asec.png" alt="Logo" loading="lazy"></li>
+                                                <li><img src="https://portal-gcs-cdn.majoo.id/v2/logo/user/koi-teppanyaki.png" alt="Logo" loading="lazy"></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mj-section-lg">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mj-section-header text-center">
+                    <h3 class="mj-upper-text">Solusi Bisnis</h3>
+                    <h2 class="mj-title-text sm">
+                        Pilihan Tepat Berbagai Jenis Bisnis
+                    </h2>
+                    <p class="mj-desc-text">
+                        Ragam navigasi yang cocok untuk semua wirausaha
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class"col-lg-12"="">
+                <div class="mj-tabchanger-v2-tab">
+                    <div class="mj-tabchanger-v2-arrows">
+                        <a href="#" class="v2tabchanger-arrows" data-type="prev">
+                            <i class="fas fa-caret-left"></i>
+                        </a>
+                    </div>
+                    <div class="mj-tabchanger-v2-main">
+                        <div class="mj-tabchanger-v2-tab-inner" data-mg="0" data-f="0">
+                                                            <a href="#" class="v2tabchanger-control active first" data-content="solusi-fnb" data-mainbody="tab-solusi-bisnis">
+                                    Bisnis F&amp;B
+                                </a>
+                                                            <a href="#" class="v2tabchanger-control " data-content="solusi-retail" data-mainbody="tab-solusi-bisnis">
+                                    Bisnis Toko Retail
+                                </a>
+                                                            <a href="#" class="v2tabchanger-control " data-content="solusi-jasa" data-mainbody="tab-solusi-bisnis">
+                                    Bisnis Jasa
+                                </a>
+                                                            <a href="#" class="v2tabchanger-control " data-content="solusi-beauty" data-mainbody="tab-solusi-bisnis">
+                                    Bisnis Beauty
+                                </a>
+                                                    </div>
+                    </div>
+                    <div class="mj-tabchanger-v2-arrows">
+                        <a href="#" class="v2tabchanger-arrows" data-type="next">
+                            <i class="fas fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5 solusi-bisnis" id="tab-solusi-bisnis">
+            <div class="col">
+                <div class="mj-tabchanger-v2-content">
+                                        <div class="mj-tabchanger-v2-panel active" id="solusi-fnb">
+                        <div class="row">
+                            <div class="col-lg-4 content">
+                                <h2 class="mj-title-text xs mb-4">
+                                    Bisnis F&amp;B
+                                </h2>
+                                <p class="mj-desc-text mb-4">
+                                    Kelola pesanan transaksi, inventori, hingga laporan lebih praktis dengan sistem serba terintegrasi.
+                                </p>
+                                <div class="features mb-4">
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/kitchen-display-system.svg">
+                                        <p>Kitchen Display System</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/customer-display.svg">
+                                        <p>Customer Display</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/kustomisasi-layout-table.svg">
+                                        <p>Kustomisasi layout table</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/kustomisasi-buku-menu.svg">
+                                        <p>Kustomisasi buku menu</p>
+                                    </div>
+                                                                    </div>
+                                                                    <a href="https://majoo.id/solusi-bisnis/food-and-beverages" class="mega-menu-nav-more mb-4">
+                                        Pelajari lebih lanjut
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-7">
+                                <img class="thumbnail" src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-solusi-bisnis-tab-fnb4.png">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="mj-tabchanger-v2-panel " id="solusi-retail">
+                        <div class="row">
+                            <div class="col-lg-4 content">
+                                <h2 class="mj-title-text xs mb-4">
+                                    Bisnis Toko Retail
+                                </h2>
+                                <p class="mj-desc-text mb-4">
+                                    Lacak dan kelola ribuan inventori produk secara real-time dengan sistem serba terautomasi
+                                </p>
+                                <div class="features mb-4">
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/snbn.svg">
+                                        <p>Serial Number Batch Number</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/warehouse-display.svg">
+                                        <p> Warehouse Display</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/warehouse-management.svg">
+                                        <p>Warehouse management</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/cetak-barcode.svg">
+                                        <p>Cetak Barcode</p>
+                                    </div>
+                                                                    </div>
+                                                                    <a href="https://majoo.id/solusi-bisnis/toko-retail" class="mega-menu-nav-more mb-4">
+                                        Pelajari lebih lanjut
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-7">
+                                <img class="thumbnail" src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-solusi-bisnis-tab-retail4.png">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="mj-tabchanger-v2-panel " id="solusi-jasa">
+                        <div class="row">
+                            <div class="col-lg-4 content">
+                                <h2 class="mj-title-text xs mb-4">
+                                    Bisnis Jasa
+                                </h2>
+                                <p class="mj-desc-text mb-4">
+                                    Hitung biaya layanan, analisis performa, dan kelola reservasi serba otomatis&nbsp;
+                                </p>
+                                <div class="features mb-4">
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/cost-of-service.svg">
+                                        <p>Cost of Service</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/analisis-layanan.svg">
+                                        <p>Analisis Layanan</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/service-record.svg">
+                                        <p>Service Record</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/workflow.svg">
+                                        <p>Workflow</p>
+                                    </div>
+                                                                    </div>
+                                                                    <a href="https://majoo.id/solusi-bisnis/jasa-professional" class="mega-menu-nav-more mb-4">
+                                        Pelajari lebih lanjut
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-7">
+                                <img class="thumbnail" src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-solusi-bisnis-tab-jasa4.png">
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="mj-tabchanger-v2-panel " id="solusi-beauty">
+                        <div class="row">
+                            <div class="col-lg-4 content">
+                                <h2 class="mj-title-text xs mb-4">
+                                    Bisnis Beauty
+                                </h2>
+                                <p class="mj-desc-text mb-4">
+                                    Atur reservasi, layanan, dan riwayat treatment pelanggan dalam satu sistem terintegrasi
+                                </p>
+                                <div class="features mb-4">
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/single-multi-reservasi.svg">
+                                        <p>Single / Multi Reservasi</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/product-service-bundling.svg">
+                                        <p>Product Service Bundling</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/treatment-record-+-majoo-satu-sehat.svg">
+                                        <p>Treatment Record + majoo Satu Sehat</p>
+                                    </div>
+                                                                        <div class="detail">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/solusi/workflow.svg">
+                                        <p>Workflow</p>
+                                    </div>
+                                                                    </div>
+                                                                    <a href="https://majoo.id/solusi-bisnis/beauty" class="mega-menu-nav-more mb-4">
+                                        Pelajari lebih lanjut
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-7">
+                                <img class="thumbnail" src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-solusi-bisnis-tab-beauty4.png">
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mj-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mj-section-header">
+                    <h3 class="mj-upper-text">PRODUK prime</h3>
+                    <h2 class="mj-title-text sm">
+                        Pelajari Fitur Automasi Prime untuk <br>
+                        Manajemen Bisnis
+                    </h2>
+                    <div class="d-flex justify-content-between" style="flex-wrap: wrap; gap: 8px;">
+                        <p class="mj-desc-text">
+                            Tingkatkan efisiensi operasional dan akselerasi pertumbuhan bisnis
+                        </p>
+                        <a href="https://majoo.id/prime" class="mega-menu-nav-more">
+                            Pelajari lebih lanjut <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mj-slider-custom slides-on-mobile" id="produk-pendukung-slider-prime-plus">
+            
+            
+            
+            
+        <div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/prime/fnb">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/prime-plus/prime-fnb-plus-hero.jpg" alt="Omnichannel">
+                        </div>
+                        <div class="mj-card-content prime">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule prime-capsule sm">Produk Prime</span>
+                            </div>
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/alt-logo-prime-fnb.webp" alt="Icon monitor" style="height: 24px; width: auto; align-self: baseline; margin-bottom: 1.5em;">
+                            <p class="mj-desc-text">
+                                Atur tampilan denah meja sesuai kebutuhan bisnismu dengan sistem terintegrasi
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/prime/jasa">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/prime-plus/prime-jasa-plus-hero.jpg" alt="Consumer App">
+                        </div>
+                        <div class="mj-card-content prime">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule prime-capsule sm">Produk Prime</span>
+                            </div>
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/alt-logo-prime-jasa.webp" alt="Icon monitor" style="height: 24px; width: auto; align-self: baseline; margin-bottom: 1.5em;">
+                            <p class="mj-desc-text">
+                                Cek progres pesanan secara dua arah dari pelanggan dan pebisnis dengan sistem terintegrasi
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/prime/retail">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/prime-plus/prime-retail-plus-hero.jpg" alt="Consumer App">
+                        </div>
+                        <div class="mj-card-content prime">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule prime-capsule sm">Produk Prime</span>
+                            </div>
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/alt-logo-prime-retail.webp" alt="Icon monitor" style="height: 24px; width: auto; align-self: baseline; margin-bottom: 1.5em;">
+                            <p class="mj-desc-text">
+                                Terima dan proses pesanan langsung dari warehouse dengan sistem terintegrasi
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/prime/beauty">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/prime-plus/prime-beauty-plus-hero.jpg" alt="Consumer App">
+                        </div>
+                        <div class="mj-card-content prime">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule prime-capsule sm">Produk Prime</span>
+                            </div>
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon-prime/alt-logo-prime-beauty.webp" style="height: 24px; width: auto; align-self: baseline; margin-bottom: 1.5em">
+                            <p class="mj-desc-text">
+                                Catat dan simpan data pelanggan mulai dari identitas hingga medical record dengan sistem terintegrasi
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div></div>
+    </div>
+</section>
+<section class="mj-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mj-section-header">
+                    <h3 class="mj-upper-text">PRODUK PENDUKUNG</h3>
+                    <h2 class="mj-title-text sm">
+                        Pelengkap Kebutuhan Bisnismu
+                    </h2>
+                    <div class="d-flex justify-content-between" style="flex-wrap: wrap; gap: 8px;">
+                        <p class="mj-desc-text">
+                            Ragam produk tambahan untuk melengkapi setiap kebutuhan bisnis
+                        </p>
+                        <a href="https://majoo.id/produk" class="mega-menu-nav-more">
+                            Lihat produk lainnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mj-slider-custom slides-on-mobile" id="produk-pendukung-slider">
+            
+            
+            
+            
+        <div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/toko-online">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/omni-new.jpg" alt="Omnichannel">
+                        </div>
+                        <div class="mj-card-content">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule sm">Integrasi Marketplace</span>
+                            </div>
+                            <h3 class="mj-title-text xxs flex-1 t-wi">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-omnichannel.png" alt="Icon monitor">
+                                majoo Omnichannel
+                            </h3>
+                            <p class="mj-desc-text">
+                                Miliki toko online sendiri dan kelola penjualan dari beragam marketplace di satu dashboard.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/consumer-app">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/h-csapp.webp" alt="Consumer App">
+                        </div>
+                        <div class="mj-card-content">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule sm">Aplikasi Konsumer</span>
+                            </div>
+                            <h3 class="mj-title-text xxs flex-1 t-wi t-800">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-consumer-app.png" alt="Icon mobile">
+                                majoo Consumer App
+                            </h3>
+                            <p class="mj-desc-text">
+                                Pembuatan aplikasi bisnis milikmu sendiri untuk raih keuntungan yang lebih maksimal.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/majoo-teams">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/img/mj-majoo-teams-hero.jpg" alt="Produk">
+                        </div>
+                        <div class="mj-card-content">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule sm">Aplikasi Karyawan</span>
+                            </div>
+                            <h3 class="mj-title-text xxs flex-1 t-wi">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-teams.png" alt="Icon users">
+                                majoo Teams
+                            </h3>
+                            <p class="mj-desc-text">
+                                Aplikasi karyawan yang terintegrasi dengan fitur lengkap manajemen karyawan majoo.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div><div class="mj-slider-item gr-2" style="">
+                <a href="https://majoo.id/majoo-api">
+                    <div class="mj-card-global landscape soft">
+                        <div class="hp-card-imgholder">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/pages/majoo-api/mj-img-hero2.jpg" alt="Promo Image" style="background: radial-gradient(100% 261.22% at 100% 0%, #ECF5E5 0%, #DAF1F0 100%);">
+                        </div>
+                        <div class="mj-card-content">
+                            <div class="mj-card-feature-label">
+                                <span class="mj-capsule sm">Integrasi ERP</span>
+                            </div>
+                            <h3 class="mj-title-text xxs flex-1 t-wi">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-api.png" alt="Icon users">
+                                majoo API
+                            </h3>
+                            <p class="mj-desc-text">
+                                Integrasi sistem internal perusahaan dengan sistem aplikasi majoo
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div></div>
+        <!-- <div class="mj-slider-holder" id="produk-pendukung-slider">
+            <div class="row mj-slider-inner">
+                <div class="col-md-6 mb-3">
+                    <a href="https://majoo.id/toko-online">
+                        <div class="mj-card-global landscape soft">
+                            <div class="hp-card-imgholder">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/img/omni-new.jpg" alt="Omnichannel" />
+                            </div>
+                            <div class="mj-card-content">
+                                <div class="mj-card-feature-label">
+                                    <span class="mj-capsule sm">Integrasi Marketplace</span>
+                                </div>
+                                <h3 class="mj-title-text xxs flex-1 t-wi">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-omnichannel.png" alt="Icon monitor" />
+                                    majoo Omnichannel
+                                </h3>
+                                <p class="mj-desc-text">
+                                    Miliki toko online sendiri dan kelola penjualan dari beragam marketplace di satu dashboard.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <a href="https://majoo.id/consumer-app">
+                        <div class="mj-card-global landscape soft">
+                            <div class="hp-card-imgholder">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/img/csapp-new.jpg" alt="Consumer App" />
+                            </div>
+                            <div class="mj-card-content">
+                                <div class="mj-card-feature-label">
+                                    <span class="mj-capsule sm">Aplikasi Konsumer</span>
+                                </div>
+                                <h3 class="mj-title-text xxs flex-1 t-wi t-800">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-consumer-app.png" alt="Icon mobile" />
+                                    majoo Consumer App
+                                </h3>
+                                <p class="mj-desc-text">
+                                    Pembuatan aplikasi bisnis milikmu sendiri untuk raih keuntungan yang lebih maksimal.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://majoo.id/majoo-teams">
+                        <div class="mj-card-global landscape soft">
+                            <div class="hp-card-imgholder">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/img/mj-majoo-teams-hero.jpg" alt="Produk" />
+                            </div>
+                            <div class="mj-card-content">
+                                <div class="mj-card-feature-label">
+                                    <span class="mj-capsule sm">Aplikasi Karyawan</span>
+                                </div>
+                                <h3 class="mj-title-text xxs flex-1 t-wi">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-teams.png" alt="Icon users" />
+                                    majoo Teams
+                                </h3>
+                                <p class="mj-desc-text">
+                                    Aplikasi karyawan yang terintegrasi dengan fitur lengkap manajemen karyawan majoo.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://majoo.id/majoo-api">
+                        <div class="mj-card-global landscape soft">
+                            <div class="hp-card-imgholder">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/retina/retina-majoo-api-hero.jpg" alt="Promo Image" style="background: radial-gradient(100% 261.22% at 100% 0%, #ECF5E5 0%, #DAF1F0 100%);" />
+                            </div>
+							<div class="mj-card-content">
+                                <div class="mj-card-feature-label">
+                                    <span class="mj-capsule sm">Integrasi ERP</span>
+                                </div>
+                                <h3 class="mj-title-text xxs flex-1 t-wi">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-api.png" alt="Icon users" />
+                                    majoo API
+                                </h3>
+                                <p class="mj-desc-text">
+                                    Integrasi sistem internal perusahaan dengan sistem aplikasi majoo
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+<section class="mj-section-lg">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mj-container-lg mj-gradient-bg">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="homepage-services-heading">
+                                <h3 class="mj-upper-text mb-3">Layanan majoo</h3>
+                                <h2 class="mj-title-text sm flex-1">
+                                    Ekosistem Digital Lengkap untuk Tumbuhkan Bisnis
+                                </h2>
+                                <a href="https://majoo.id/layanan" class="mega-menu-nav-more">Pelajari lebih lanjut <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <ul class="homepage-services">
+                                <li>
+                                    <a href="https://majoo.id/layanan/majoo-pay">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-pay.png" alt="Layanan Pay">
+                                        <span>Pembayaran Digital Terintegrasi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://majoo.id/layanan/majoo-capital">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-capital.png" alt="Layanan Capital">
+                                        <span>Permodalan Usaha Tanpa Agunan</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://majoo.id/layanan/majoo-supplies">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/majoo-supplies.png" alt="Layanan Supplis">
+                                        <span>Belanja Bahan Baku Praktis dari Satu Tempat</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://majoo.id/layanan/majoo-ads">
+                                        <img src="https://portal-gcs-cdn.majoo.id/v2/logo/new-majoo-ads.png" alt="Layanan Ads">
+                                        <span>Tingkatkan Penjualan dengan Iklan Digital</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mj-section-lg" id="h-comparation">
+    <div class="container">
+        <div class="row">
+            <div class="col align-self-center">
+                <div class="homepage-comparation">
+                    <div class="mj-upper-text mb-3">Majoo VS aplikasi lain</div>
+                    <h2 class="mj-title-text sm mb-3">
+                        Kenapa Harus majoo?
+                    </h2>
+                    <p class="mj-desc-text">
+                        Aplikasi majoo memiliki fitur, layanan, dan bimbingan bisnis terlengkap untuk buat bisnismu lebih cepat naik kelas.
+                    </p>
+                    <div class="mj-videoplayer">
+                        <a href="#" data-video="KJlycEN0T6U">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/vt/vt-why-majoo.jpg" alt="VT Kenapa Majoo" class="img-vt">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/play-btn.svg" alt="Icon Play" class="img-vt-overlay">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="homepage-comparation-table text-center">
+                    <div class="mj-overlay-content mb-4" data-initial="500" style="height: 500px;">
+                        <div class="mj-overlay-content-inner">
+                            <table class="mj-rating-table">
+                                <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th><img src="https://portal-gcs-cdn.majoo.id/v2/logo/main-logo.png" alt="main logo majoo"></th>
+                                        <th><label>Aplikasi Lain</label></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span>All-in-one app</span>
+                                            <label>
+                                                Tersedia fitur penjualan, promo, inventori, karyawan, hingga akuntansi tanpa tambahan biaya
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-5.svg" alt="Rating 5">
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-2.svg" alt="Rating 2">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>multipayment</span>
+                                            <label>
+                                                Pembayaran digital e-Wallet dan kartu debit/kredit
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-5.svg" alt="Rating 5">
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-1.svg" alt="Rating 1">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>keamanan terjamin</span>
+                                            <label>
+                                                Dilengkapi fitur keamanan privacy untuk mengatur level akses karyawan
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-5.svg" alt="Rating 5">
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-1.svg" alt="Rating 2">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>harga kompetitif</span>
+                                            <label>
+                                                Pilihan harga langganan sesuai kebutuhan bisnis
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-5.svg" alt="Rating 5">
+                                        </td>
+                                        <td>
+                                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-star-2.svg" alt="Rating 2">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <a href="https://majoo.id/kenapa-pilih-majoo" class="read-more-section text-center" target="">
+                        <span>Lihat perbandingan lebih lengkap</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container" style="border-top: 1px solid #D6D6D6"></div>
+<section class="mj-section media-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mj-section-header">
+                    <div class="d-flex justify-content-between" style="flex-wrap: wrap; gap: 8px;">
+                        <div class="mb-3">
+                            <h2 class="mj-title-text xs mb-3">Media Coverage
+                            </h2>
+                            <p class="mj-desc-text">
+                                Akses semua liputan berita tentang majoo dari berbagai media
+                            </p>
+                        </div>
+                        <div>
+                            <a href="https://majoo.id/news" class="mega-menu-nav-more">
+                                Lihat Semua <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="mj-overlay-content mb-3 mt-3" data-initial="270" style="height: 270px;">
+                        <div class="mj-overlay-content-inner">
+                            <div class="media-holder">
+                                                                <a href="https://finance.detik.com" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-detik.png" alt="media-detik">
+                                </a>
+                                                                <a href="https://bisnis.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-bisnis.png" alt="media-bisnis">
+                                </a>
+                                                                <a href="https://www.liputan6.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-liputan.png" alt="media-liputan6">
+                                </a>
+                                                                <a href="https://www.idxchannel.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-idx.png" alt="media-idx">
+                                </a>
+                                                                <a href="https://www.kompas.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-kompas.png" alt="media-kompas">
+                                </a>
+                                                                <a href="https://www.tvonenews.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-tvnews.png" alt="media-tvonenews">
+                                </a>
+                                                                <a href="https://www.tribunnews.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-tribun.png" alt="media-tribun">
+                                </a>
+                                                                <a href="https://www.suara.com/?chr=1729587904455" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-suara.png" alt="media-suara">
+                                </a>
+                                                                <a href="https://www.viva.co.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-viva.png" alt="media-viva">
+                                </a>
+                                                                <a href="https://www.beritasatu.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-berita-satu.png" alt="media-berita-satu">
+                                </a>
+                                                                <a href="https://www.techinasia.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-techinasia.png" alt="media-techinasia">
+                                </a>
+                                                                <a href="https://www.kontan.co.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-kontan.png" alt="media-kontan">
+                                </a>
+                                                                <a href="https://poskota.co.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-poskota.png" alt="media-poskota">
+                                </a>
+                                                                <a href="https://wartaekonomi.co.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-warta.png" alt="media-warta-ekonomi">
+                                </a>
+                                                                <a href="https://www.inews.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-inews.png" alt="media-inews">
+                                </a>
+                                                                <a href="https://www.sindonews.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-sindo.png" alt="media-sindo">
+                                </a>
+                                                                <a href="https://investor.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-investor.png" alt="media-investor">
+                                </a>
+                                                                <a href="https://www.antaranews.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-antara.png" alt="media-antara">
+                                </a>
+                                                                <a href="https://dailysocial.id/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-daily.png" alt="media-daily-social">
+                                </a>
+                                                                <a href="https://mediaindonesia.com/" target="_blank" class="media-container">
+                                    <img src="https://portal-gcs-cdn.majoo.id/v2/logo/external/media/logo-media-indonesia.png" alt="media-indonesia">
+                                </a>
+                                                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="mega-menu-nav-more mj-overlay-content-control d-none d-md-inline">
+                        Lihat selengkapnya
+                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-chevron-down.svg" alt="icon down" class="mx-1">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container" style="border-top: 1px solid #D6D6D6"></div>
+<section class="mj-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <div class="mj-overlay-content mb-5" data-initial="80" style="height: 80px;">
+                    <div class="mj-overlay-content-inner">
+                        <h2>Apa itu Aplikasi POS?</h2>
+                        <p>
+                            <a href="https://majoo.id/">Aplikasi POS</a> adalah sebuah sistem yang digunakan oleh seorang pebisnis untuk memproses transaksi penjualan agar proses transaksi lebih efisien. Aplikasi POS kombinasi antara perangkat keras dan perangkat lunak yang memungkinkan pemilik bisnis untuk memproses pembayaran, melacak penjualan, dan mengelola inventory. Dengan teknologi yang terus berkembang serta menggunakan cloud, aplikasi POS sekarang juga dapat menangani beberapa kebutuhan seperti manajemen pelanggan, analisis penjualan, dan integrasi dengan program loyalitas atau CRM.
+                        </p>
+                        <h2>Manfaat Menggunakan Aplikasi POS</h2>
+                        <ul>
+                            <li>
+                                <strong>Efisiensi Transaksi:</strong>
+                                <p>
+                                    Dengan aplikasi POS, proses transaksi menjadi lebih cepat dan akurat. Pelanggan tidak perlu menunggu lama di kasir, dan kemungkinan kesalahan input oleh kasir dapat diminimalkan.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Manajemen Inventory yang Lebih Baik:</strong>
+                                <p>
+                                    Aplikasi POS memungkinkan untuk melacak inventaris secara real-time. Kamu dapat melihat produk mana yang paling laku, kapan harus melakukan pemesanan ulang, dan menghindari kehabisan stok.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Laporan Penjualan yang Detail:</strong>
+                                <p>
+                                    Salah satu keunggulan utama aplikasi POS adalah kemampuannya untuk menghasilkan laporan penjualan yang komprehensif. Kamu dapat menganalisis penjualan harian, mingguan, atau bulanan dan membuat keputusan bisnis yang lebih informasional.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Manajemen Pelanggan:</strong>
+                                <p>
+                                    Banyak aplikasi POS yang dilengkapi dengan fitur manajemen pelanggan. Kamu dapat menyimpan data pelanggan, melacak riwayat pembelian, dan bahkan mengirimkan promosi yang dipersonalisasi.
+                                </p>
+                            </li>
+                        </ul>
+                        <h2>Mengapa Aplikasi POS Penting Untuk Restoran?</h2>
+                        <p>
+                            Restoran adalah bisnis yang dinamis dengan banyak komponen yang perlu dikelola secara efisien. Dari pengelolaan inventaris hingga pelacakan penjualan, aplikasi POS menawarkan berbagai keuntungan, antara lain:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Mempermudah proses pembayaran, baik tunai maupun non-tunai.</p>
+                            </li>
+                            <li>
+                                <p>Membantu melacak stok bahan makanan dan minuman, mengurangi risiko kehabisan stok atau overstock.</p>
+                            </li>
+                            <li>
+                                <p>Memberikan laporan penjualan harian, mingguan, dan bulanan yang membantu dalam pengambilan keputusan strategis.</p>
+                            </li>
+                            <li>
+                                <p>Memungkinkan layanan yang lebih cepat dan efisien, meningkatkan kepuasan pelanggan.</p>
+                            </li>
+                        </ul>
+                        <h2>Mengapa Aplikasi POS Penting untuk Bisnis Retail?</h2>
+                        <p>
+                            Aplikasi POS (Point of Sale) merupakan sistem yang menggabungkan perangkat keras dan lunak untuk menangani transaksi penjualan. Dalam bisnis retail, aplikasi POS tidak hanya memproses transaksi tetapi juga mengelola inventaris, melacak penjualan, dan memberikan laporan analitis yang berguna.
+                        </p>
+                        <h3>Manfaat Utama Menggunakan Aplikasi POS untuk Retail</h3>
+                        <ul>
+                            <li>
+                                <strong>Efisiensi Transaksi:</strong>
+                                <p>
+                                    Aplikasi POS memungkinkan pemrosesan transaksi lebih cepat dan akurat. Penggunaan barcode scanner dan fitur pembayaran digital meminimalkan kesalahan manusia dan mempercepat antrian di kasir.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Manajemen Inventaris:</strong>
+                                <p>
+                                    Dengan aplikasi POS, pemilik toko dapat memantau stok barang secara real-time. Ini memudahkan dalam pengisian ulang stok tepat waktu dan mengurangi risiko kekurangan atau kelebihan stok.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Pelacakan Penjualan:</strong>
+                                <p>
+                                    Sistem POS mencatat setiap transaksi yang terjadi, memungkinkan pemilik toko untuk melacak penjualan harian, mingguan, hingga bulanan. Data ini membantu dalam membuat keputusan bisnis yang lebih baik.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Laporan Analitik:</strong>
+                                <p>
+                                    Aplikasi POS menyediakan laporan terperinci tentang kinerja penjualan, tren pelanggan, dan produk yang paling laris. Laporan ini berguna untuk menyusun strategi pemasaran dan penjualan yang lebih efektif.
+                                </p>
+                            </li>
+                        </ul>
+                        <h2>Fungsi Aplikasi POS untuk Bisnis</h2>
+                        <p>
+                            Mengelola bisnis dengan lancar dan efisien adalah impian setiap pemilik usaha. Di sinilah aplikasi Point of Sale (POS) berperan penting. Fungsi aplikasi POS tidak hanya terbatas pada pencatatan transaksi jual beli, tetapi juga mencakup berbagai aspek lain yang membantu meningkatkan efisiensi operasional dan produktivitas bisnis.
+                        </p>
+                        <label style="color: #A3A3A3; font-weight: bold;">Pencatatan Transaksi Secara Real-Time</label>
+                        <p>
+                            Salah satu fungsi utama aplikasi POS adalah pencatatan transaksi secara real-time. Setiap kali terjadi transaksi, data langsung tercatat dalam sistem POS. Hal ini memudahkan pemilik bisnis untuk memantau penjualan secara langsung dan mengurangi risiko kesalahan pencatatan manual. Dengan data yang akurat dan real-time, pengambilan keputusan bisnis dapat dilakukan lebih cepat dan tepat.
+                        </p>
+                        <label style="color: #A3A3A3; font-weight: bold;">Manajemen Inventaris yang Efektif</label>
+                        <p>
+                            Aplikasi POS juga berfungsi sebagai alat manajemen inventaris yang efektif. Dengan sistem POS, pemilik bisnis dapat melacak stok barang secara otomatis. Setiap kali ada penjualan atau pembelian, stok barang akan diperbarui secara otomatis dalam sistem. Ini membantu menghindari kehabisan stok atau kelebihan stok, yang dapat mengganggu operasional bisnis. Beberapa aplikasi POS juga memiliki fitur notifikasi ketika stok barang mencapai batas minimum, sehingga pemilik bisnis dapat segera melakukan pemesanan ulang.
+                        </p>
+                        <label style="color: #A3A3A3; font-weight: bold;">Pelaporan dan Analisis Data</label>
+                        <p>
+                            Pelaporan dan analisis data adalah fungsi penting lainnya dari aplikasi POS. Aplikasi ini dapat menghasilkan berbagai laporan, seperti laporan penjualan harian, mingguan, bulanan, hingga laporan kinerja produk. Dengan adanya laporan yang lengkap dan terstruktur, pemilik bisnis dapat melakukan analisis mendalam terhadap kinerja bisnis mereka. Analisis ini bisa digunakan untuk menentukan strategi bisnis ke depan, seperti menentukan produk yang perlu ditingkatkan atau promosi yang perlu dilakukan.
+                        </p>
+                        <label style="color: #A3A3A3; font-weight: bold;">Manajemen Pelanggan</label>
+                        <p>
+                            Fungsi aplikasi POS tidak hanya terbatas pada manajemen penjualan dan inventaris, tetapi juga mencakup manajemen pelanggan. Aplikasi POS dapat menyimpan data pelanggan, seperti nama, kontak, dan riwayat pembelian. Dengan data ini, pemilik bisnis dapat memberikan layanan yang lebih personal dan meningkatkan kepuasan pelanggan. Beberapa aplikasi POS juga dilengkapi dengan fitur loyalty program yang dapat meningkatkan loyalitas pelanggan.
+                        </p>
+                        <label style="color: #A3A3A3; font-weight: bold;">Integrasi dengan Sistem Pembayaran</label>
+                        <p>
+                            Aplikasi POS modern biasanya sudah terintegrasi dengan berbagai sistem pembayaran, baik tunai, kartu kredit/debit, maupun pembayaran digital. Integrasi ini memudahkan proses pembayaran dan mengurangi waktu antrian pelanggan. Selain itu, Aplikasi POS juga memastikan bahwa setiap transaksi tercatat dengan akurat, mengurangi risiko kesalahan dan penipuan.
+                        </p>
+                        <h2>Tips Cara Memilih Aplikasi POS yang Tepat</h2>
+                        <ol>
+                            <li>
+                                <strong>Lakukan Riset Mendalam</strong>
+                                <p>Sebelum memutuskan untuk memilih aplikasi POS, lakukan riset mendalam mengenai berbagai opsi yang tersedia di pasar. Baca ulasan pengguna, minta rekomendasi dari sesama pebisnis, dan coba versi demo jika memungkinkan.</p>
+                            </li>
+                            <li>
+                                <strong>Evaluasi Kebutuhan Bisnis</strong>
+                                <p>Evaluasi kebutuhan spesifik bisnis Anda dan buat daftar fitur yang harus dimiliki oleh aplikasi POS. Hal ini akan membantu Anda dalam mempersempit pilihan dan memilih yang paling sesuai.</p>
+                            </li>
+                            <li>
+                                <strong>Pertimbangkan Dukungan Pelanggan</strong>
+                                <p>Pilih aplikasi POS yang menawarkan dukungan pelanggan yang responsif dan profesional. Dukungan yang baik sangat penting untuk membantu Anda mengatasi masalah teknis dan memastikan operasional bisnis berjalan lancar.</p>
+                            </li>
+                            <li>
+                                <strong>Cek Integrasi dengan Sistem Lain</strong>
+                                <p>Pastikan aplikasi POS yang Anda pilih dapat diintegrasikan dengan sistem lain yang sudah Anda gunakan, seperti sistem akuntansi atau e-commerce. Integrasi yang baik akan membantu dalam menyinkronkan data dan meningkatkan efisiensi operasional.</p>
+                            </li>
+                            <li>
+                                <strong>Uji Coba dan Evaluasi</strong>
+                                <p>Sebelum membuat keputusan akhir, lakukan uji coba aplikasi POS selama beberapa waktu. Evaluasi performanya dan lihat apakah aplikasi tersebut memenuhi ekspektasi dan kebutuhan bisnis Anda.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <a href="#" class="mega-menu-nav-more mj-overlay-content-control">
+                    Baca selengkapnya
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-chevron-down.svg" alt="icon down" class="mx-1">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<script nonce="">
+    $(document).ready(function() {
+        let dataSlider =  [],
+            activeSlider = 'fnb',
+            sliderInterval;
+
+        const slides = document.querySelectorAll('.homepage-navigation-item');
+
+        const startInterval = () => {
+            // Clear any existing interval first
+            if (sliderInterval) {
+                clearInterval(sliderInterval);
+            }
+            
+            // Start a new interval
+            sliderInterval = setInterval(() => {
+                const currentIndex = dataSlider.indexOf(activeSlider);
+                const nextIndex = (currentIndex + 1) % dataSlider.length;
+                const nextTarget = dataSlider[nextIndex];
+                const nextElement = document.querySelector(`.homepage-navigation-item[data-target="${nextTarget}"]`);
+                changeActiveSlider(nextElement, nextTarget, false);
+            }, 3000);
+        };
+
+        startInterval();
+
+        const changeActiveSlider = async (element, target, shouldResetInterval = true) => {
+            if (activeSlider != target) {
+                activeSlider = target;
+                const targetElement = document.getElementById(target);
+                $(element).addClass('active').siblings().removeClass('active');
+                $(targetElement).addClass('active').siblings().removeClass('active');
+                const imgUrl = $(targetElement).find('img').attr('src');
+                $(`#hero-image`).attr('src', imgUrl);
+                
+                if (shouldResetInterval) {
+                    startInterval();
+                }
+            }
+        };
+
+        slides.forEach(element => {
+            const target = $(element).data('target');
+            dataSlider = [ ...dataSlider, target];
+            if ($(element).hasClass('active')) {
+                activeSlider = target;
+            }
+            element.addEventListener('click', () => changeActiveSlider(element, target))
+        });
+
+        window.addEventListener('beforeunload', function() {
+            clearInterval(sliderInterval);
+        });
+        
+        // $("#hero-home").flickity({
+        //     prevNextButtons: false,
+        //     pageDots: false,
+        //     imagesLoaded: true,
+        //     freeScroll: false,
+        //     wrapAround: true,
+        //     autoPlay: true,
+        // });
+
+        // $(".hs-prev").click(function(e) {
+        //     e.preventDefault();
+        //     var slider = $("#hero-home").flickity();
+        //     slider.flickity('previous');
+        // });
+
+        // $(".hs-next").click(function(e) {
+        //     e.preventDefault();
+        //     var slider = $("#hero-home").flickity();
+        //     slider.flickity('next');
+        // });
+
+        initSlider('produk-pendukung-slider-prime', {
+            group: 2,
+            isMobileOnly: true
+        });
+        initSlider('produk-pendukung-slider-prime-plus', {
+            group: 2,
+            isMobileOnly: true
+        });
+        initSlider('produk-pendukung-slider', {
+            group: 2,
+            isMobileOnly: true
+        });
+    });
+</script>
+<script nonce="" type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "majoo Indonesia",
+        "image": "https://00f74ba44b9d75259e3aaa71297b6d79aff0521e17-apidata.googleusercontent.com/download/storage/v1/b/gcs-portal/o/v2%2Flogo%2Fmain-logo-hires.png?jk=AFshE3U_k20dYa8_wXsKEFpddMRNBNMP_ZLnBTxu20oeYRRQPxC11jpseCanhvTtYcscbK_ZKtBXdbPfSm_wdwySzMwYZ6Qi_HTNlvH1tYy0_VY-1r_prvEzrupFZsR70Fmzith_wp_at9Flr5QPbM0MBHIAGeAoBlZzCyGT5rXOeVq1hpV94iFqEx4EBzMaFihox4iDHQhKBXNVKxlJVDYQa4TJxyT_R4bj9ttw6cMccG3eudCIwydByVlILqyD4T-lG7nLIKM1xxXXLc2XkzerSucr_nGya8JsToKsGwxkAye2FdOHkR9Sx5Pb7jv8cZ9c9A4wvAJHvngbGvTH1hnGIK5jvmEKJunSNSKhj8gljicQnqrT2ghzLNwR7XfONFzccG3wpLct8NIqvH8cRMaeq24aq5bWqs_xV8QjaDLlE3zg2L3fdQS1rab_QI5I8gd16GcGX3xRZOfkDJrL3REdmNQ_0HUe-AAfs_lgv-gsHuE2_QH9kwS49GWsn_Z40W6OHO2BmL83gFONTOUkqYvVBSUO_CBIyEGnHJqk1mO8x6Q14dkJsLkFb5GCw8-R_ekQMslIs64LNg3w0C0NdPDSRg8oinq9ZGpbosBaUXo_QkslCtBNqOmT-x_jYrxkb1_CW04UFAUUhwY6xnv544czEdV_mCsCE2YE6cHVY1CfFFyIz1mXyRo00KzNgJRk7yDC4pMaeuN-QRY30y7Emz-KBBPzvnslR9GNvpXN8Uu2GSRTlmYftHQGL61K1Q8Le5GO_WXjDhtr3N07M9IwvrgdxheIJV-6ukJ5Im1WqHRnBVx2jN94w0wNil1DBSk2Bho_Ah_NyCQkfEGJgx8S93DL695zhDS3a22_gsOVfSr7vr-gxOs-x3W1kl35rKl12bu9fi5j709Ad9gbl5fKTS1hhAuxKycL9or2oTh8w3AtoqTzzwlueYrAQACS_tS_2pwCC2vleIeAuveLH1lq4BKV7BkWsWvNlxB-NYOtSQiKCpo3T-jPkjyZeL9YI0F_Ho_aexyCwX22pNheAIRXn9oacUHv9uVtUkHqgTF1eDjC0uCLA2Ov7f1Qbe5pUOfBz2a5c_iE8JjoF9L7whZ0ajC2OAS9dMsBMcqrhutJ252MNEG-AfhWcspQAgoMNynhlxf6iQJ0unCEjG4ZIHrZntLaW_upnPH6EnBELTjnnVOwRUPP2qq3&isca=1",
+        "@id": "https://majoo.id/",
+        "url": "https://majoo.id/",
+        "telephone": "1500460",
+        "priceRange": "129000",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Prapanca Raya No.25",
+            "addressLocality": "Jakarta Selatan",
+            "postalCode": "12160",
+            "addressCountry": "ID"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -6.2530691,
+            "longitude": 106.8062698
+        },
+        "sameAs": [
+            "https://www.facebook.com/revolusimajoo",
+            "https://twitter.com/MajooIndonesia",
+            "https://www.instagram.com/majoo.indonesia/",
+            "https://www.youtube.com/c/majooIndonesia",
+            "https://www.linkedin.com/company/majoo-indonesia/mycompany/"
+        ]
+    }
+</script>
+<script nonce="" type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "majoo Indonesia",
+        "alternateName": "majoo",
+        "url": "https://majoo.id/",
+        "logo": "https://00f74ba44b9d75259e3aaa71297b6d79aff0521e17-apidata.googleusercontent.com/download/storage/v1/b/gcs-portal/o/v2%2Flogo%2Fmain-logo-hires.png?jk=AFshE3U_k20dYa8_wXsKEFpddMRNBNMP_ZLnBTxu20oeYRRQPxC11jpseCanhvTtYcscbK_ZKtBXdbPfSm_wdwySzMwYZ6Qi_HTNlvH1tYy0_VY-1r_prvEzrupFZsR70Fmzith_wp_at9Flr5QPbM0MBHIAGeAoBlZzCyGT5rXOeVq1hpV94iFqEx4EBzMaFihox4iDHQhKBXNVKxlJVDYQa4TJxyT_R4bj9ttw6cMccG3eudCIwydByVlILqyD4T-lG7nLIKM1xxXXLc2XkzerSucr_nGya8JsToKsGwxkAye2FdOHkR9Sx5Pb7jv8cZ9c9A4wvAJHvngbGvTH1hnGIK5jvmEKJunSNSKhj8gljicQnqrT2ghzLNwR7XfONFzccG3wpLct8NIqvH8cRMaeq24aq5bWqs_xV8QjaDLlE3zg2L3fdQS1rab_QI5I8gd16GcGX3xRZOfkDJrL3REdmNQ_0HUe-AAfs_lgv-gsHuE2_QH9kwS49GWsn_Z40W6OHO2BmL83gFONTOUkqYvVBSUO_CBIyEGnHJqk1mO8x6Q14dkJsLkFb5GCw8-R_ekQMslIs64LNg3w0C0NdPDSRg8oinq9ZGpbosBaUXo_QkslCtBNqOmT-x_jYrxkb1_CW04UFAUUhwY6xnv544czEdV_mCsCE2YE6cHVY1CfFFyIz1mXyRo00KzNgJRk7yDC4pMaeuN-QRY30y7Emz-KBBPzvnslR9GNvpXN8Uu2GSRTlmYftHQGL61K1Q8Le5GO_WXjDhtr3N07M9IwvrgdxheIJV-6ukJ5Im1WqHRnBVx2jN94w0wNil1DBSk2Bho_Ah_NyCQkfEGJgx8S93DL695zhDS3a22_gsOVfSr7vr-gxOs-x3W1kl35rKl12bu9fi5j709Ad9gbl5fKTS1hhAuxKycL9or2oTh8w3AtoqTzzwlueYrAQACS_tS_2pwCC2vleIeAuveLH1lq4BKV7BkWsWvNlxB-NYOtSQiKCpo3T-jPkjyZeL9YI0F_Ho_aexyCwX22pNheAIRXn9oacUHv9uVtUkHqgTF1eDjC0uCLA2Ov7f1Qbe5pUOfBz2a5c_iE8JjoF9L7whZ0ajC2OAS9dMsBMcqrhutJ252MNEG-AfhWcspQAgoMNynhlxf6iQJ0unCEjG4ZIHrZntLaW_upnPH6EnBELTjnnVOwRUPP2qq3&isca=1"
+    }
+</script>
+<script nonce="" type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "majoo Indonesia",
+        "url": "https://majoo.id/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://majoo.id/search?q{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>                        <div class="container">
+                <section class="mj-section-lg">
+    <div class="container">
+        <div class="mj-container mj-gradient-bg no-padding">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex align-items-end">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/img/mj-customer-service.webp" alt="Footer support">
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="footer-support-content">
+                        <h2>
+                            Punya Pertanyaan? <br> Kami Siap Membantu 24 Jam
+                        </h2>
+                        <p>
+                            Dapatkan informasi lebih lengkap tentang aplikasi majoo
+                        </p>
+                                                <a href="https://majoo.id/solusi-bisnis" class="span-wrap">
+                            <span class="span-wrap-wrap">Masih ragu?</span>
+                            Cari tahu paket paling tepat untuk bisnismu di sini <i class="fas fa-arrow-right span-wrap-icon"></i>
+                        </a>
+                        <div class="footer-content-button">
+                            <a href="https://majoo.id/hubungi-kami?action=demo" class="mj-button mj-primary-btn">
+                                Jadwalkan Demo
+                            </a>
+                            <a href="https://majoo.id/hubungi-kami" class="mj-button mj-solid-white-btn">
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            </div>
+            
+                            <div class="footer-menu prime">
+    <div class="container">
+        <div class="mj-container mj-gradient-bg-green mj-bg-logo no-padding">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="footer-promo-content">
+                        <h2>
+                            Mulai majoo sekarang, <br>GRATIS!
+                        </h2>
+                        <p>Nikmati beragam fitur dan layanan lengkap untuk kelola apapun jenis bisnismu</p>
+                        <div class="footer-menu-cta">
+                            <a href="https://dashboard.majoo.id/auth/register" class="mj-button mj-solid-white-btn" target="_blank">
+                                Coba Gratis 14 Hari
+                            </a>
+                            <a href="https://majoo.id/harga" class="mj-button mj-solid-lime-btn">
+                                Beli Paket Sekarang
+                            </a>
+                        </div>
+                        <div class="footer-menu-extras">
+                            <a href="https://majoo.id/promo">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-promo.svg" alt="Promo Icon" class="icon-logo">
+                                Lihat promo
+                            </a>
+                            <a href="https://majoo.id/kenapa-pilih-majoo?landing=download-area">
+                                <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-brochure.svg" alt="Brochure Icon" class="icon-logo">
+                                Lihat brochure
+                            </a>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-promo-img" style="height: 100%;">
+                <img src="https://portal-gcs-cdn.majoo.id/v2/retina/img-retina-footer-device-2.png" alt="Promo Image" style="max-width: 570px; height: 100%; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</div>
+
+                                    
+			                                    <div class="main-footer" id="footer">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 col-xl-3">
+                <img src="https://portal-gcs-cdn.majoo.id/v2/img/mainlogo-white-4x.png" alt="logo majoo main" class="main-logo-footer">
+                <p>Aplikasi wirausaha terlengkap untuk kelola bisnismu jadi lebih maju.</p>
+                <div class="footer-item">
+                    <label>kantor pusat</label>
+                    <h4>SMESCO Tower, lantai 3</h4>
+                    <span>Jl. Gatot Subroto No.Kav. 94, RT.11/RW.3, Pancoran, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12780</span>
+                </div>
+                <div class="footer-item">
+                    <label>majoo care</label>
+                    <a href="https://wa.me/62811500460" class="mj-footer-cta" target="_blank">
+                        <img src="https://portal-gcs-cdn.majoo.id/v2/icon/whatsapp.svg" alt="whatsapp">
+                        0811 500 460
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9">
+                <div class="footer-navigation">
+                    <div class="row row-cols-1 row-cols-lg-5">
+                        <div class="col">
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Fitur</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-kasir-online">Aplikasi Kasir</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-crm">Aplikasi CRM</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-keuangan">Akuntansi</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-karyawan">Karyawan</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-inventori">Inventori</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-analisa-bisnis">Analisa Bisnis</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-owner">Aplikasi Owner</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/aplikasi-toko-online">Toko Online</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Informasi</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-care">majooCare</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/kenapa-pilih-majoo">Kenapa majoo?</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/informasi-update">Update Fitur</a>
+                                    </li>
+									<li>
+                                        <a href="https://majoo.id/faq">FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Produk Prime</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/prime/fnb">Prime F&amp;B</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/prime/jasa">Prime Jasa</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/prime/retail">Prime Retail</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/prime/beauty">Prime Beauty</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Produk Pendukung</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/toko-online">Omnichannel</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/consumer-app">Consumer App</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-teams">majoo Teams</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-api">majoo API</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-kds">majoo KDS</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-order-display">majoo Order Display</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-smart-edc">majoo Smart EDC</a>
+                                    </li>
+                                                                                                            <li>
+                                        <a href="https://majoo.id/satu-sehat">majoo Satu Sehat</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">majoo grow</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/layanan/franchise">majooFranchise</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/layanan/majoo-pay">majooPay</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/layanan/majoo-capital">majooCapital</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/layanan/majoo-supplies">majooSupplies</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/layanan/majoo-ads">majooAds</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">majoo expert</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-expert/accounting">majoo Expert Accounting</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoo-expert/legal">majoo Expert Legal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Solusi Bisnis</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/solusi-bisnis/food-and-beverages">Food &amp; Beverages</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/solusi-bisnis/toko-retail">Toko Retail</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/solusi-bisnis/beauty">Beauty</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/solusi-bisnis/jasa-professional">Bisnis Jasa</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/solusi-bisnis/enterprise">Enterprise</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Harga</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/harga">Harga dan Paket</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/harga/detail">Detail Paket</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/promo">Promosi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Majoowira</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/majoowira/mentorship">Mentor majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoowira/kompetisi">Kompetisi majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoowira/kelas-majoo">Kelas majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoowira/pustaka">Pustaka majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/majoowira/daily-majoo">Daily majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/blog">Inspirasi majoo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item mb-3">
+                                <label class="dd-mobile">Tentang</label>
+                                <ul>
+                                    <li>
+                                        <a href="https://majoo.id/tentang-majoo">Tentang majoo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/hubungi-kami">Hubungi Kami</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://majoo.id/news">Media</a>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <a href="https://majoo.id/karir">Karir</a>
+                                        <span class="mj-capsule sm" style="white-space: nowrap; color:#196D6B;">We're Hiring!</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-middle">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="mj-section-hero-download">
+	<a href="https://play.google.com/store/apps/details?id=com.klopos&amp;hl=id&amp;gl=US" class="link-with-image">
+		<img src="https://portal-gcs-cdn.majoo.id/v2/img/googleplay-download.png" alt="Icon Playstore">
+	</a>
+	<a href="https://apps.apple.com/id/app/aplikasi-kasir-wirausaha-majoo/id1642259472?l=id" class="link-with-image">
+		<img src="https://portal-gcs-cdn.majoo.id/v2/img/appstore-download-4x.png" alt="Icon Appstore">
+	</a>
+	<a href="https://apps.microsoft.com/store/detail/aplikasi-kasir-wirausaha-majoo/9P7F9MKTD7PM?hl=id-id&amp;gl=id" class="link-with-image">
+		<img src="https://portal-gcs-cdn.majoo.id/v2/img/mstore-download.png" alt="Icon Microsoft Store">
+	</a>
+	<a href="https://apps.apple.com/id/app/aplikasi-kasir-wirausaha-majoo/id1642259472?l=id" class="link-with-image">
+		<img src="https://portal-gcs-cdn.majoo.id/v2/icon-appstore.png" alt="Icon Mac Appstore Store">
+	</a>
+</div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social-media">
+                        <a href="https://www.instagram.com/majoo.indonesia" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://www.twitter.com/MajooIndonesia" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="https://www.linkedin.com/company/majoo-indonesia" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-linkedin.svg" alt="Linkedin">
+                        </a>
+                        <a href="https://www.facebook.com/revolusimajoo" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://www.youtube.com/c/majooIndonesia" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-youtube.svg" alt="Youtube">
+                        </a>
+                        <a href="https://www.tiktok.com/@majooindonesia?is_copy_url=1&amp;is_from_webapp=v1" target="_blank">
+                            <img src="https://portal-gcs-cdn.majoo.id/v2/icon/icon-tiktok.svg" alt="Tiktok">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-bottom">
+            <div class="row">
+                <div class="col-md-6">
+                    <label><i class="fas fa-copyright"></i> 2023 PT Majoo Teknologi Indonesia. All rights reserved.</label>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-anchor-link">
+                        <a href="https://majoo.id/syarat-dan-ketentuan" class="mid-link">Syarat dan Ketentuan</a>
+                        <a href="https://majoo.id/privasi-dan-kebijakan" class="mid-link">Kebijakan Privasi</a>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+                 
+                    </main>
+    </div>
+        <div id="pustaka-popup" class="mj-global-overlay">
+    <div class="mj-overlay-panel">
+        <div class="mj-overlay-header">
+            <h3>Pustaka majoo</h3>
+            <p>Isi Form dibawah ini untuk download pustaka</p>
+        </div>
+        <div class="mj-overlay-body">
+            <form method="post" action="#" class="mj-form" autocomplete="off" id="form-pustaka">
+                <div class="mj-inputholder">
+                    <label>Nama</label>
+                    <input type="text" class="form-control" placeholder="nama" name="name">
+                </div>
+                <div class="mj-inputholder">
+                    <label>Nomor Handphone</label>
+                    <input type="number" class="form-control" placeholder="Nomor Handphone" name="phone">
+                    <span>format: 62xxxxxxxx
+                </span></div>
+                <div class="mj-inputholder">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="email" name="email">
+                </div>
+                <div class="mj-inputholder">
+                    <label>Apakah anda sudah memiliki usaha</label>
+                    <select class="form-select" name="usaha" id="pustaka-ext" data-target="pustaka-ext-content" data-condition="1">
+                        <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                        <option value="1">Ya</option>
+                        <option value="2">Tidak</option>
+                    </select>
+                    <input type="hidden" name="pustaka_type" id="pustaka-type">
+                    <input type="hidden" name="pustaka_code" id="pustaka-code">
+                    <input type="hidden" name="pustaka_template" id="pustaka-template">
+                    <input type="hidden" name="pustaka_uq" id="pustaka-uq">
+                    <input type="hidden" name="majoo_portal_csrf" value="7a258368afb7bbc8f4cfb753c99671a2">
+                </div>
+                <div class="mj-hidden-form" id="pustaka-ext-content">
+                    <div class="mj-hidden-inner">
+                        <div class="mj-inputholder">
+                            <label>Nama Bisnis Anda</label>
+                            <input type="text" class="form-control" placeholder="Nama Bisnis Anda" name="business_name">
+                        </div>
+                        <div class="mj-inputholder">
+                            <label>Alamat Bisnis Anda</label>
+                            <input type="text" class="form-control" placeholder="Alamat Bisnis Anda" name="business_address">
+                        </div>
+                        <div class="mj-inputholder">
+                            <label>Aspek bisnis apa yang ingin anda kembangkan?</label>
+                            <select class="form-select" name="business_develop">
+                                <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                                <option value="1">Pencatatan transaksi yang tidak teratur</option>
+                                <option value="2">Manajemen inventory yang tidak transparan</option>
+                                <option value="3">Laporan laba &amp; rugi yang tidak jelas</option>
+                                <option value="4">Manajemen absensi karyawan</option>
+                                <option value="5">Membuka channel ke penjualan online (marketplace, website &amp; grabfood)</option>
+                                <option value="6">Lainnya</option>
+                                <option value="7">Tidak ada, saya hanya ingin lihat-lihat</option>
+                            </select>
+                        </div>
+                        <div class="mj-inputholder">
+                            <label>Fitur aplikasi kasir majoo apa yang tertarik anda pelajari?</label>
+                            <select class="form-select" name="interesting_features">
+                                <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                                <option value="1">Aplikasi kasir digital</option>
+                                <option value="2">Aplikasi absensi karyawan</option>
+                                <option value="3">Aplikasi inventory</option>
+                                <option value="4">Aplikasi Owner</option>
+                                <option value="5">Aplikasi Omnichannel &amp; Website</option>
+                                <option value="6">Aplikasi Akuntansi</option>
+                                <option value="7">Lainnya</option>
+                                <option value="8">Tidak ada, saya hanya ingin lihat-lihat</option>
+                            </select>
+                        </div>
+                        <div class="mj-inputholder">
+                            <label>Kapan anda ingin memakai aplikasi kasir digital untuk bisnis anda?</label>
+                            <select class="form-select" name="installation_time">
+                                <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                                <option value="1">Dalam minggu ini</option>
+                                <option value="2">Dalam bulan ini</option>
+                                <option value="3">Sekitar 1 - 3 bulan ke depan</option>
+                                <option value="4">Lebih dari 3 bulan ke depan</option>
+                                <option value="5">Masih belum tahu kapan</option>
+                            </select>
+                        </div>
+                        <div class="mj-inputholder">
+                            <label>Melalui apa anda ingin dihubungi konsultan majoo?</label>
+                            <select class="form-select" name="contact">
+                                <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                                <option value="1">Whatsapp</option>
+                                <option value="2">Telepon</option>
+                                <option value="3">Email</option>
+                                <option value="4">Zoom / Gmeet</option>
+                                <option value="5">Lainnya</option>
+                                <option value="6">Tidak ingin dihubungi, karena masih lihat-lihat</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Download Pustaka" class="w-100 justify-content-center">
+                <a href="#" class="popup-close" data-target="pustaka-popup">Batal</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div id="rekomendasi-bisnis-popup" class="mj-global-overlay">
+    <div class="mj-overlay-panel">
+        <div class="mj-section-hero inverse" id="form">
+            <div class="mj-section-hero-content">
+                <a href="#" class="popup-close" data-target="rekomendasi-bisnis-popup">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/icon/ico-x-close.svg" alt="Icon close">
+                </a>                
+                <h2 class="mj-title-text sm mb-2">
+                    Temukan Paket Paling Tepat untuk Bisnismu
+                </h2>
+                <div class="mj-desc-text mb-5">
+                    Isi form berikut untuk membantu kami tentukan paket paling sesuai dengan jenis dan skala bisnismu.
+                </div>
+                <form action="https://majoo.id/rekomendasi-paket" class="mj-form">
+                    <input type="hidden" name="majoo_portal_csrf" value="7a258368afb7bbc8f4cfb753c99671a2">
+                    <div class="row mb-4">
+                        <div class="col-lg-6">
+                            <label class="mj-upper-text">kategori bisnis</label>
+                            <select class="form-select">
+                                <option selected="">Food &amp; Beverages</option>
+                                <option value="1">Toko Retail</option>
+                                <option value="1">Bisnis Jasa</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-6">
+                            <label class="mj-upper-text">jumlah cabang</label>
+                            <select class="form-select">
+                                <option selected="">1 - 5 outlet</option>
+                                <option value="1">5 - 10 outlet</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <label class="mj-upper-text">lama bisnis</label>
+                            <select class="form-select">
+                                <option selected="">Baru memulai &lt; 1 tahun</option>
+                                <option value="1">Lebih dari 1 tahun</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <label class="mj-upper-text">jenis bisnis</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" value="option1" name="jenis-bisnis" checked="">
+                                <label class="form-check-label">Online</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" value="option1" name="jenis-bisnis">
+                                <label class="form-check-label">Offline</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="mj-button mj-primary-btn sm">
+                                Temukan Paket
+                            </button>
+                        </div>                        
+                    </div>
+                </form>
+            </div> 
+            <div class="col mj-section-hero-bg">
+                <img src="https://portal-gcs-cdn.majoo.id/v2/pages/solusi-bisnis/form-rekom.jpg" class="mj-img-lazy" alt="solusi bisnis form">
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div id="mj-banner-promo" class="mj-global-overlay">
+    <div class="popup-promo-holder-v2">
+        <a href="#" id="p-promo-close">
+            <img src="https://portal-gcs-cdn.majoo.id/v2/img/ico-close.png" alt="Icon Close">
+        </a>
+        <div class="popup-promo-image-v2">
+            <picture>
+                <source media="(max-width: 768px)" srcset="https://portal-gcs-cdn.majoo.id/v2/img/pop-up-mobile---diskon-50.jpg">
+                <source media="(min-width: 769px)" srcset="https://portal-gcs-cdn.majoo.id/v2/img/pop-up-web---diskon-50.jpg">
+                <img src="https://portal-gcs-cdn.majoo.id/v2/img/pop-up-web---diskon-50.jpg" alt="Promo KV">
+            </picture>
+        </div>
+        <div class="popup-promo-content-v2">
+            <div><span class="mj-capsule sm mb-2">Penawaran Spesial</span></div>
+            <h3 class="mj-title-text xs mb-3">Diskon Hingga 50% untuk Semua Paket majoo!</h3>
+            <p class="mj-desc-text mb-2">Kamu bisa nikmati semua fitur unggulan majoo dengan harga lebih murah.</p>
+            <p class="mj-desc-text mb-2">
+                <sup style="color:red">*</sup>S&amp;K berlaku
+            </p>
+                                    <a href="https://wa.link/na1m18" class="mj-button mj-primary-btn" target="_blank">Langganan Sekarang</a>
+        </div>
+    </div>
+</div>
+
+        <div id="rekomendasi-harga-popup" class="mj-global-overlay">
+    <div class="popup-harga-panel">
+        <a href="#" class="close-rekomendasi-trigger"><i class="fas fa-times"></i></a>
+        <div class="popup-harga-item">
+            <h3 class="mj-title-text sm mb-3">Starter</h3>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Tablet</span>
+                        </li>
+                        <li>
+                            <span>Macbook M1</span>
+                        </li>
+                        <li>
+                            <span>Mesin EDC Android</span>
+                        </li>
+                        <li>
+                            <span>Printer Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>Printer LAN</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Spesifikasi</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>OS Tablet</span>
+                            <span>:</span>
+                            <span>Android / iOS / Windows</span>
+                        </li>
+                        <li>
+                            <span>Fitur Tablet</span>
+                            <span>:</span>
+                            <span>Camera, GPS, Network 4G, Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>RAM Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>Display Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 8 inch</span>
+                        </li>
+                        <li>
+                            <span>OS Windows</span>
+                            <span>:</span>
+                            <span>Windows 10 versi/build 17763.0 64bit</span>
+                        </li>
+                        <li>
+                            <span>Windows RAM</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>OS Macboook M1</span>
+                            <span>:</span>
+                            <span>macOS Ventura</span>
+                        </li>
+                        <li>
+                            <span>OS Android</span>
+                            <span>:</span>
+                            <span>Minimum Android 7</span>
+                        </li>
+                        <li>
+                            <span>OS iOS</span>
+                            <span>:</span>
+                            <span>Minimum iOS 13</span>
+                        </li>
+                        <li>
+                            <span>Hardware Bluetooth</span>
+                            <span>:</span>
+                            <span>4.0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat Tambahan</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Standee Tablet</span>
+                            <span>:</span>
+                            <span>Tipe Compact / Neo / Neo Rotate</span>
+                        </li>
+                        <li>
+                            <span>Cashdrawer</span>
+                            <span>:</span>
+                            <span>Optional Digunakan</span>
+                        </li>
+                        <li>
+                            <span>Barcode Scanner</span>
+                            <span>:</span>
+                            <span>Untuk Bisnis Retail</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup-harga-item">
+            <h3 class="mj-title-text sm mb-3">Advance</h3>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Tablet</span>
+                        </li>
+                        <li>
+                            <span>Macbook M1</span>
+                        </li>
+                        <li>
+                            <span>Desktop</span>
+                        </li>
+                        <li>
+                            <span>Mesin EDC Android</span>
+                        </li>
+                        <li>
+                            <span>Printer Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>Printer LAN</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Spesifikasi</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>OS Tablet</span>
+                            <span>:</span>
+                            <span>Android / iOS / Windows</span>
+                        </li>
+                        <li>
+                            <span>Fitur Tablet</span>
+                            <span>:</span>
+                            <span>Camera, GPS, Network 4G, Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>RAM Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>Display Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 8 inch</span>
+                        </li>
+                        <li>
+                            <span>OS Desktop</span>
+                            <span>:</span>
+                            <span>Android</span>
+                        </li>
+                        <li>
+                            <span>Display Desktop</span>
+                            <span>:</span>
+                            <span>15 inch</span>
+                        </li>
+                        <li>
+                            <span>Monitor Desktop</span>
+                            <span>:</span>
+                            <span>Single / Dual</span>
+                        </li>
+                        <li>
+                            <span>Memory Desktop</span>
+                            <span>:</span>
+                            <span>Minimum 4GB</span>
+                        </li>
+                        <li>
+                            <span>OS Windows</span>
+                            <span>:</span>
+                            <span>Windows 10 versi/build 17763.0 64bit</span>
+                        </li>
+                        <li>
+                            <span>Windows RAM</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>OS Macboook M1</span>
+                            <span>:</span>
+                            <span>macOS Ventura</span>
+                        </li>
+                        <li>
+                            <span>OS Android</span>
+                            <span>:</span>
+                            <span>Minimum Android 7</span>
+                        </li>
+                        <li>
+                            <span>OS iOS</span>
+                            <span>:</span>
+                            <span>Minimum iOS 13</span>
+                        </li>
+                        <li>
+                            <span>Hardware Bluetooth</span>
+                            <span>:</span>
+                            <span>4.0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat Tambahan</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Standee Tablet</span>
+                            <span>:</span>
+                            <span>Tipe Compact / Neo / Neo Rotate</span>
+                        </li>
+                        <li>
+                            <span>Cashdrawer</span>
+                            <span>:</span>
+                            <span>Optional Digunakan</span>
+                        </li>
+                        <li>
+                            <span>Barcode Scanner</span>
+                            <span>:</span>
+                            <span>Untuk Bisnis Retail</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup-harga-item">
+            <h3 class="mj-title-text sm mb-3">Prime &amp; Prime+</h3>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Tablet</span>
+                        </li>
+                        <li>
+                            <span>Macbook M1</span>
+                        </li>
+                        <li>
+                            <span>Desktop</span>
+                        </li>
+                        <li>
+                            <span class="nowrap">Smart TV (Untuk Kitchen atau Customer Display)</span>
+                        </li>
+                        <li>
+                            <span>Mesin EDC Android</span>
+                        </li>
+                        <li>
+                            <span>Printer Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>Printer LAN</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Spesifikasi</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>OS Tablet</span>
+                            <span>:</span>
+                            <span>Android / iOS / Windows</span>
+                        </li>
+                        <li>
+                            <span>Fitur Tablet</span>
+                            <span>:</span>
+                            <span>Camera, GPS, Network 4G, Bluetooth</span>
+                        </li>
+                        <li>
+                            <span>RAM Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>Display Tablet</span>
+                            <span>:</span>
+                            <span>Minimum 8 inch</span>
+                        </li>
+                        <li>
+                            <span>OS Desktop</span>
+                            <span>:</span>
+                            <span>Android</span>
+                        </li>
+                        <li>
+                            <span>Display Desktop</span>
+                            <span>:</span>
+                            <span>15 inch</span>
+                        </li>
+                        <li>
+                            <span>Monitor Desktop</span>
+                            <span>:</span>
+                            <span>Single / Dual</span>
+                        </li>
+                        <li>
+                            <span>Memory Desktop</span>
+                            <span>:</span>
+                            <span>Minimum 4GB</span>
+                        </li>
+                        <li>
+                            <span>OS Windows</span>
+                            <span>:</span>
+                            <span>Windows 10 versi/build 17763.0 64bit</span>
+                        </li>
+                        <li>
+                            <span>OS Macboook M1</span>
+                            <span>:</span>
+                            <span>macOS Ventura</span>
+                        </li>
+                        <li>
+                            <span>Windows RAM</span>
+                            <span>:</span>
+                            <span>Minimum 4 GB</span>
+                        </li>
+                        <li>
+                            <span>OS Android</span>
+                            <span>:</span>
+                            <span>Minimum Android 7</span>
+                        </li>
+                        <li>
+                            <span>OS iOS</span>
+                            <span>:</span>
+                            <span>Minimum iOS 13</span>
+                        </li>
+                        <li>
+                            <span>Hardware Bluetooth</span>
+                            <span>:</span>
+                            <span>4.0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-harga-content">
+                <label class="spec">Perangkat Tambahan</label>
+                <div class="popup-harga-list">
+                    <ul>
+                        <li>
+                            <span>Standee Tablet</span>
+                            <span>:</span>
+                            <span>Tipe Compact / Neo / Neo Rotate</span>
+                        </li>
+                        <li>
+                            <span>Cashdrawer</span>
+                            <span>:</span>
+                            <span>Optional Digunakan</span>
+                        </li>
+                        <li>
+                            <span>Barcode Scanner</span>
+                            <span>:</span>
+                            <span>Untuk Bisnis Retail</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="form-download-popup" class="mj-global-overlay">
+    <div class="mj-overlay-panel">
+        <div class="download-form-pp">
+            <div class="download-form-pp-header">
+                <div>
+                    <h3 id="dfp-title" class="mj-title-text xs" style="color: #292929;"></h3>
+                    <p class="mj-desc-text" id="dfp-subtitle"></p>
+                </div>
+                <a href="#" class="close-dfp"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="download-form-pp-body">
+                <form method="post" action="#" class="mj-form" autocomplete="off" id="form-download">
+                    <div class="mj-inputholder" style="padding-top: 28px;">
+                        <label class="mj-upper-text mb-3">Data Diri</label>
+                        <input type="text" class="form-control mb-3" placeholder="nama" name="name">
+                        <div class="phone-inputholder">
+                            <span>+62</span>
+                            <input type="number" name="phone" data-inputtype="phone" min="1" class="form-control mb-3" placeholder="82xxx">
+                        </div>
+                    </div>
+                    <div class="mj-inputholder" style="padding-top: 28px;">
+                        <label class="mj-upper-text mb-3">Apakah anda sudah memiliki usaha</label>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="radio" name="usaha" value="1">
+                            <label class="form-check-label">Ya</label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="usaha" value="2">
+                            <label class="form-check-label">Belum ada usaha</label>
+                        </div>
+                        <input type="hidden" name="filepath" id="dfp-path">
+                        <input type="hidden" name="campaign_name" id="dfp-campaign">
+                        <input type="hidden" name="uq" id="dfp-uq">
+                        <input type="hidden" name="majoo_portal_csrf" value="7a258368afb7bbc8f4cfb753c99671a2">
+                    </div>
+                    <div class="mj-inputholder" style="padding-top: 28px;">
+                        <label class="mj-upper-text mb-3">Jenis Usaha</label>
+                        <select class="form-select" name="jenis_usaha" id="jenis_usaha_selector" disabled="">
+                            <option selected="" disabled="" hidden="">Pilihan Anda</option>
+                        </select>
+                        <input type="hidden" id="jenis_usaha_str" name="jenis_usaha_str">
+                    </div>
+                    <input type="submit" value="Download" class="w-100 justify-content-center">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script nonce="" src="https://majoo.id/assets/local/js/helper.js?version=2.90.2" type="text/javascript"></script>
+<script nonce="">
+    $(document).ready(function() {
+        $(".close-dfp").click(function(e) {
+            e.preventDefault();
+            $("#form-download").trigger('reset');
+            onClosePopupHandler('form-download-popup')
+        });
+
+        $('input[type=radio][name=usaha]').change(function(e) {
+            if (e.target.value === '1') {
+                $("#jenis_usaha_selector").removeAttr('disabled');
+            } else {
+                $("#jenis_usaha_selector").attr('disabled', 'disabled');
+            }
+        });
+
+        $("#jenis_usaha_selector").change(function(e) {
+            var strVal = e.target.selectedOptions[0].text;
+            $("#jenis_usaha_str").val(strVal);
+        });
+
+        $("#form-download").on('submit', function(e) {
+            e.preventDefault();
+            const arrFormData = $(this).serializeArray();
+            var formData = new FormData();
+            
+            $.each(arrFormData, function(key, input) {
+                formData.append(input.name, input.value);
+            });
+
+            saveBusinessLead(formData);
+        });
+
+        function saveBusinessLead(payload) {
+            $.ajax({
+                type: "post",
+                url: "https://majoo.id/api/download/submission",
+                data: payload,
+                contentType: false,
+                processData: false,
+                beforeSend: function() {
+                    showLoader();
+                },
+                success: function(data) {
+                    const { filepath, status, message } = data;
+                    if (status) {
+                        var link = document.createElement('a');
+                        link.href = filepath;
+                        link.setAttribute('download', '');
+                        link.setAttribute('target', '_blank');
+                        link.click();
+
+                        setTimeout(() => {
+                            window.location.replace('https://majoo.id/majoowira/thank-you');
+                        }, 1500);
+                    } else {
+                        createNotification({
+                            type: 'error',
+                            title: 'Submission gagal',
+                            message: response.responseJSON.message,
+                        });
+                        hideLoader();
+                        return;
+                    }
+                },
+                error: function(response) {
+                    createNotification({
+                        type: 'error',
+                        title: 'Submission gagal',
+                        message: response.responseJSON.message,
+                    });
+                    hideLoader();
+                    return;
+                },
+                complete: function() {
+                    hideLoader();
+                }
+            });
+        }
+    });
+</script>
+
+                <div id="whatsapp-tooltip" style="display: block;">
+            <span id="close-btn">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </span>
+            <a href="https://wa.me/62811500460?text=%23tanyamajoo.++Halo%2C+majoo">
+                Selamat datang di majoo 👋 Hubungi konsultan kami untuk pertanyaan dan info penawaran menarik
+            </a>
+        </div>
+        <div id="whatsapp-holder" class="">
+            <a href="https://wa.me/62811500460?text=%23tanyamajoo.++Halo%2C+majoo" data-url="https://wa.me/62811500460?text=%23tanyamajoo.++Halo%2C+majoo" class="btn btn-whatsapp" id="wa-start" target="_blank">
+                <div id="wa-img">
+                    <img src="https://portal-gcs-cdn.majoo.id/v2/img/wa-btn.png" alt="whatsapp logo">
+                </div>
+                <div class="wa-btn-lbl">
+                                            <label>Hubungi Kami</label>
+                        <label>Online 24 Jam</label>
+                                    </div>
+            </a>
+        </div>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" nonce="" data-cf-beacon="{&quot;rayId&quot;:&quot;98bc196dab434a5d&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.9.1&quot;,&quot;token&quot;:&quot;11700dafa26d4338a3aa2937afdbb15c&quot;}" crossorigin="anonymous"></script>
+
+
+<script nonce="">
+    var whatsappIdle = true;
+    $(document).ready(function() {
+        checkScrollState();
+
+        
+        $(".close-rekomendasi-trigger").click(function(e) {
+            e.preventDefault();
+            var popup = document.getElementById('rekomendasi-harga-popup');
+            if (!popup) return;
+
+            document.body.classList.remove('frozen');
+            popup.classList.remove('show');
+        });
+        
+        $(".dd-mobile").click(function(e) {
+            if ($(window).width() > 768) return;
+            $(this).toggleClass('open');
+            $(this).siblings().slideToggle();
+        });
+
+        $(".header-menu-trigger").click(function(e) {
+            e.preventDefault();
+            var screenHeight = $(window).innerHeight() - 65;
+            var ico = $(this).find('i');
+
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+                $(ico).removeClass('fa-times');
+                $(ico).addClass('fa-bars');
+                $(".main-navigation").removeClass('open');
+                $('body').removeClass('frozen');
+                $(".main-navigation").css('height', 0);
+                $(".top-header").css('display', 'block');
+
+                if ($('header').hasClass('t-hlocked')) {
+                    $('header').removeClass('locked');
+                    $('header').removeClass('t-hlocked');
+                }
+            } else {
+                $(this).addClass('open');
+                $(ico).addClass('fa-times');
+                $(ico).removeClass('fa-bars');
+                $(".main-navigation").addClass('open');
+                $('body').addClass('frozen');
+                $(".main-navigation").css('height', screenHeight);
+                $(".top-header").css('display', 'none');
+
+                if (!$('header').hasClass('locked')) {
+                    $('header').addClass('locked');
+                    $('header').addClass('t-hlocked');
+                }
+            }
+        });
+        
+        $(".mega-menu-trigger").click(function(e) {
+            e.preventDefault();
+
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+                $(this).siblings().fadeOut();
+            } else {
+                $(".mega-menu-container").fadeOut();
+                $(".mega-menu-trigger").removeClass('open');
+                $(this).addClass('open');
+                $(this).siblings().fadeIn();
+            }
+        });
+
+        $(".mj-promo-pag-btn").click(function(e) {
+			e.preventDefault();
+			
+			if ($(".mj-promo-par-text").hasClass('open')) {
+                $(".mj-promo-par-text").removeClass('open');
+				$(".mj-promo-pag-btn span").text('Baca selengkapnya');
+            } else {
+                $(".mj-promo-par-text").addClass('open');
+				$(".mj-promo-pag-btn span").text('Tutup penjelasan');
+            }
+            
+			$('.mj-promo-div').slideToggle(400);
+		});
+
+        $("#mj-rekomendasi-bisnis").click(function(e) {
+            e.preventDefault();
+            onCallPopupHandler("rekomendasi-bisnis-popup");
+        });
+
+        function checkScrollState() {
+			var currentScroll = $(this).scrollTop();
+			if (currentScroll >= 600) {
+                if (whatsappIdle) {
+				    $('#whatsapp-tooltip').css('display', 'block');
+                }
+				$('#wa-notif').css('display', 'block');
+			}
+			
+			if ($("header").hasClass("locked")) return;
+
+            if (currentScroll >= 50) {
+                $('header').addClass('inverse');
+            } else {
+				$('header').removeClass('inverse');
+            }
+        }
+
+        $("#close-btn").click(function() {
+            whatsappIdle = false;
+            $("#whatsapp-tooltip").fadeOut('slow');
+        })
+
+        $(".mj-imgchanger").each(function() {
+            var screenWidth = $(window).width();
+            var firstElement = $(this).find('.imgchanger-trg').first();
+            var imageSource = firstElement.siblings().attr('src');
+            var imgContainer = firstElement.attr('data-target');
+
+            $(`#${imgContainer}`).attr('src', imageSource);
+            firstElement.addClass('selected');
+
+            if (screenWidth <= 768) {
+                firstElement.siblings().slideDown();
+            }
+        });
+
+        $(".imgchanger-trg").on('mouseenter', function() {
+            if ($(this).hasClass('selected')) return;
+
+            var imgSrc = $(this).siblings().attr('src');
+            var target = $(this).attr('data-target');
+            $(`#${target}`).attr('src', imgSrc);    
+            $(`[data-target=${target}]`).siblings().removeClass('show');
+            $(this).siblings().addClass('show');
+            $(`[data-target=${target}]`).removeClass('selected');
+            $(this).addClass('selected');
+        });
+
+        $(".mj-overlay-content").each(function() {
+            var defaultHeight = parseInt($(this).attr('data-initial'), 10);
+            $(this).css('height', defaultHeight);
+        });
+
+        $(".mj-overlay-content-control").click(function(e) {
+            e.preventDefault();
+            var targetDiv = $(this).siblings();
+            var defaultHeight = parseInt($(targetDiv).attr('data-initial'), 10);
+            var targetHeight = $(targetDiv).children().height();
+            var labelControl = $(this).find('span');
+            var openText = $(this).attr('data-openText');
+            var closeText = $(this).attr('data-closeText');
+
+            if ($(this).hasClass('expand')) {
+                $(targetDiv).css('height', defaultHeight);
+                $(targetDiv).removeClass('expanded');
+                $(this).removeClass('expand');
+                $(labelControl).text(openText);
+                $(labelControl).siblings().css('display', 'block');
+            } else {
+                $(this).addClass('expand');
+                $(targetDiv).css('height', targetHeight);
+                $(targetDiv).addClass('expanded');
+                $(labelControl).text(closeText);
+                $(labelControl).siblings().css('display', 'none');
+            }
+        });
+        
+        $(".mj-card-control").click(function(e) {
+            e.preventDefault();
+            $(this).toggleClass('rotated');
+            $(this).parent().siblings().last().slideToggle();
+        });
+
+        $(".mj-accordion").click(function(e) {
+            e.preventDefault();
+            const isMultiple = String($(this).attr('data-multiple')) == '1';
+            var imgSource = null;
+            var imgHolder = null;
+            var defImg = null;
+
+            if ($(this).attr('data-img') != '0') {
+                imgSource = $(this).attr('data-img');
+                imgHolder = $(this).attr('data-wrapper');
+                defImg = $(`#${$(this).attr('data-wrapper')}`).attr('data-source');
+            }
+
+            if (isMultiple) {
+                if ($(this).hasClass('active')) {
+                    $(this).siblings().slideUp();
+                    $(this).removeClass('active');
+                    if (imgSource) {
+                        $(`#${imgHolder}`).attr('src', defImg);
+                    }
+                } else {
+                    $(this).siblings().slideDown();
+                    $(this).addClass('active');
+                    if (imgSource) {
+                        $(`#${imgHolder}`).attr('src', imgSource);
+                    }
+                }
+            } else {
+                if ($(this).hasClass('active')) {
+                    $(this).siblings().slideUp();
+                    $(this).removeClass('active');
+                    if (imgSource) {
+                        $(`#${imgHolder}`).attr('src', defImg);
+                    }
+                } else {
+                    $(this).siblings().slideDown();
+                    $(this).addClass('active');
+                    $(this).parent().siblings().find('.mj-accordion').removeClass('active');
+                    $(this).parent().siblings().find('.mj-accordion').siblings().slideUp();
+                    if (imgSource) {
+                        $(`#${imgHolder}`).attr('src', imgSource);
+                    }
+                }
+            }
+        });
+
+        $(".popup-close").click(function(e) {
+            e.preventDefault();
+            var target = $(this).attr('data-target');
+            onClosePopupHandler(target);
+        });
+
+        $(".mj-img-lazy").lazy();
+
+        $(".mj-btn-goto").click(function(e) {
+            e.preventDefault();
+            var target = $(this).attr('data-anchor');
+            var targetPos = $(`#${target}`).position().top;
+            $('html, body').animate({
+                scrollTop: targetPos,
+            }, 500);
+        });
+
+        $("#p-promo-cta").click(function(e) {
+            e.preventDefault();
+
+            $("#p-promo-d").addClass('minimized');
+            $("#p-promo-f").removeClass('minimized');
+        });
+
+        $(".pp-promo").click(function(e) {
+            e.preventDefault();
+            onCallPopupHandler('mj-banner-promo');
+        });
+
+        $("#p-promo-close").click(function(e) {
+            e.preventDefault();
+            $("#p-promo-d").removeClass('minimized');
+            $("#p-promo-f").addClass('minimized');
+            onClosePopupHandler('mj-banner-promo');
+            if(!$('#sticky-popup-holder').hasClass('show')) $('#sticky-popup-holder').addClass('show');
+        });
+
+        function closeOpenedMenu() {
+            $(".mega-menu-trigger").each(function() {
+                if ($(this).hasClass('open')) {
+                    $(this).removeClass('open');
+                    $(this).siblings().fadeOut();
+                }
+            });
+        }
+
+        $("#form-popup-slider").submit(function(e) {
+            e.preventDefault();
+            const apiUrl = "https://majoo.id/api/slider/form";
+            const arrFormData = $(this).serializeArray();
+            var validatedData = {};
+            var formData = new FormData();
+            
+            $.each(arrFormData, function(key, input) {
+                formData.append(input.name, input.value);
+                Object.assign(validatedData, {
+                    [input.name]: input.value,
+                });
+            });
+            
+            const errorMsg = validateSliderPopupPayload(validatedData);
+            if (errorMsg !== null) {
+                addNotification({
+                    type: 'error',
+                    title: 'Terjadi Kesalahan',
+                    message: errorMsg,
+                });
+                return;
+            }
+
+            submitFormSlider(formData, apiUrl);
+        });
+
+        $("[data-inputType='phone']").each(function() {
+            $(this).on('keydown', function(e) {
+                const { key } = e;
+                var cur = e.target.value;
+                if (cur.length < 1 && key === "0") {
+                    e.preventDefault();
+                }
+
+                if (key === '-' || key === '+') {
+                    e.preventDefault();
+                }
+
+                if (cur.length >= 12) {
+                    e.preventDefault();
+                }
+            });
+        });
+		
+		$(".an-number").each(function() {
+			if ($(this).hasClass('disabled')) return;
+			var min = 1;
+			var max = $(this).attr('data-value');
+			
+			var animated = setInterval(() => {
+				min += 11;
+				if (min >= max) {
+					min = max;
+					clearInterval(animated);
+					$(this).addClass('disabled');
+				}
+				$(this).text(min);
+			}, 10);
+		});
+
+        $(".mj-videoplayer > a").click(function(e) {
+            e.preventDefault();
+            var target = $(this).attr('data-video');
+            onCallFullscreenHandler('video', target);
+        });
+        
+		$("[data-format='rupiah']").each(function() {
+            $(this).on('keyup', function(e) {
+				const { key } = e;
+                var cur = e.target.value;
+                var number_string = cur.replace(/[^,\d]/g, '').toString(),
+				split   		= number_string.split(','),
+				sisa     		= split[0].length % 3,
+				rupiah     		= split[0].substr(0, sisa),
+				ribuan     		= split[0].substr(sisa).match(/\d{3}/gi);
+				
+				if(ribuan){
+					separator = sisa ? '.' : '';
+					rupiah += separator + ribuan.join('.');
+				}
+				
+				rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+				e.target.value = 'Rp. ' + rupiah;
+            });
+        });
+
+        /** TABCHANGER V2 */
+        $(".mj-tabchanger-v2-tab").each(function() {
+            const widthCal = 18;
+            const arrowsCal = 116;
+            var maxAvailableWidth = $(this).parent().width() - 30;
+            var mainContainer = $(this).find(".mj-tabchanger-v2-main");
+            var innerContainer = $(this).find(".mj-tabchanger-v2-tab-inner");
+            var currentWidth = 0;
+            var currentLeft = 0;
+            if (maxAvailableWidth <= $(mainContainer).width()) {
+                var innerPos = innerContainer[0].getBoundingClientRect();
+                var innerWidth = innerPos.width - arrowsCal;
+                var listItems = $(innerContainer).children();
+                listItems.each((idx, item) => {
+                    var itemPos = item.getBoundingClientRect();
+                    var outerWidth = itemPos.width + widthCal;
+                    currentWidth += outerWidth;
+                    $(item).attr('data-w', outerWidth);
+                    $(item).attr('data-l', currentLeft);
+                    currentLeft -= outerWidth;
+                    if (currentWidth >= innerWidth && !$(innerContainer).attr('data-l')) {
+                        $(innerContainer).attr('data-l', idx - 1);
+                        $(this).children().first().addClass('show');
+                        $(this).children().first().children().addClass('disabled');
+                        $(this).children().last().addClass('show');
+                    }
+                });
+            }
+        });
+
+        $(".v2tabchanger-arrows").click(function(e) {
+            e.preventDefault();
+            if ($(this).hasClass('disabled')) return;
+
+            var tabBody = $(this).parent().siblings().find(".mj-tabchanger-v2-tab-inner");
+            var action = $(this).attr('data-type');
+            var tabItems = $(tabBody).children();
+            var lastItem = parseInt($(tabBody).attr('data-l'), 10);
+            var firstItem = parseInt($(tabBody).attr('data-f'), 10);
+
+            if (action === 'next') {
+                var parentWidth = Number($(tabBody).parent().width());
+                var nextElementLeft = Number($($(tabItems)[lastItem + 1]).attr('data-l'));
+                var nextElementWidth = Number($($(tabItems)[lastItem + 1]).attr('data-w'));
+                var marginToAdd = nextElementLeft + parentWidth - nextElementWidth;
+                $(tabBody).css('transform', `translateX(${marginToAdd}px)`);
+                lastItem++;
+                firstItem++;
+
+                if (lastItem >= (tabItems.length -1)) {
+                    $(this).addClass('disabled');
+                } else {
+                    $(this).parent().siblings().first().children().removeClass('disabled');
+                }
+            } else {
+                var y = Number($($(tabItems)[firstItem - 1]).attr('data-l'));
+                if (y >= 0) {
+                    y += 24;
+                }
+                $(tabBody).css('transform', `translateX(${y}px)`);
+                lastItem--;
+                firstItem--;
+                
+                if (firstItem <= 0) {
+                    $(this).addClass('disabled');
+                } else {
+                    $(this).parent().siblings().last().children().removeClass('disabled');
+                }
+            }
+
+            $(tabBody).attr('data-l', lastItem);
+            $(tabBody).attr('data-f', firstItem);
+        });
+
+        $(".v2tabchanger-control").click(function(e) {
+            e.preventDefault();
+            if ($(this).hasClass('active')) return;
+
+            var target = $(this).attr('data-mainbody');
+            var content = $(this).attr('data-content');
+
+            $(`#${target}`).find('.mj-tabchanger-v2-panel.active').removeClass('active');
+            $(`#${content}`).addClass('active');
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $(".mega-menu-accordion-body > label").click(function() {
+            if ($(window).width() > 992) return;
+            $(this).siblings().slideToggle();
+            $(this).find('i').toggleClass('rotated');
+        });
+
+        // ON WINDOW RESIZE
+        $(window).on('resize', function() {
+            
+        });
+
+        // ON WINDOW SCROLL
+        $(window).on('scroll', function() {
+            checkScrollState();
+            closeOpenedMenu();
+        });
+
+        $(document).click(function(e) {
+            const header = document.getElementsByTagName('header')[0];
+            if (!header) return;
+            
+            const isClickInsideHeader = header.contains(e.target);
+            if (!isClickInsideHeader) {
+                closeOpenedMenu();
+            }
+        });
+
+        $(".tg-download-form").click(function(e) {
+            e.preventDefault();
+            const params = {
+                type: $(this).attr('data-type'),
+                title: $(this).attr('data-title'),
+                path: $(this).attr('href'),
+                campaign: $(this).attr('data-cx'),
+                identifier: $(this).attr('data-uq'),
+            }
+            onTriggerDownloadForm(params);
+        });
+
+        $(".pgtab-item > ol > li").click(function() {
+            if ($(this).hasClass('show')) return;
+            const includeDesc = $(this).parent().parent().hasClass('include-desc');
+            const isMobile = window.innerWidth <= 768;
+        
+            if (!includeDesc || isMobile) {
+                $(this).parent().find('li.show > p').slideUp('fast');
+                $(this).parent().find('li.show > .content').slideUp('fast');
+            }
+            $(this).parent().find('li.show').removeClass('show');
+            var imgUrl = $(this).find('img').attr('src');
+            var imgTarget = $(this).attr('data-img');
+            $(`#${imgTarget}`).attr('src', imgUrl);
+
+            $(this).addClass('show');
+            if (!includeDesc || isMobile) {
+                $(this).find('p').slideDown("fast");
+                $(this).find('.content').slideDown("fast");
+            }
+        });
+    });
+
+    $(window).on('load', function() {
+        if (window.location.pathname != '/paketmajooprime') {
+            popupConfiguration();
+        }
+
+        $(".pgtab-item > ol > li").first().click();
+        
+        $(".npt-control").click(function() {
+            var parentTab = $(this).attr('data-body');
+            var currentPage = $(`#${parentTab}`).attr('data-active');
+            var actionType = $(this).attr('data-ctrl');
+            var totalPage = $("#od-tab").find('.pgtab-item').length;
+
+            if (actionType === 'prev') {
+                if (Number(currentPage) === 1) return;
+
+                var nextPage = Number(currentPage) - 1;
+                
+                $(`#${parentTab}`).attr('data-active', nextPage);
+                $(".pgtab-item").removeClass('active');
+                $("#od-tab").find(`[data-page='${nextPage}']`).addClass('active');
+            } else {
+                if (Number(currentPage) === totalPage) return;
+
+                var nextPage = Number(currentPage) + 1;
+                
+                $(`#${parentTab}`).attr('data-active', nextPage);
+                $(".pgtab-item").removeClass('active');
+                $("#od-tab").find(`[data-page='${nextPage}']`).addClass('active');
+            }
+
+            $(this).parent().find('label').text(`Halaman ${nextPage} dari ${totalPage}`);
+        });
+    });
+</script><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+
+
+<script type="text/javascript" id="" charset="">(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g;d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(c,d)})(window,document,"clarity","script","by5yqqhh63");</script><img src="https://t.co/i/adsct?bci=3&amp;dv=Asia%2FJakarta%26en-US%2Cen%2Cid%26Google%20Inc.%26Win32%26255%261536%26864%2612%2624%261536%26816%260%26na&amp;eci=2&amp;event_id=f739e079-e938-435d-8986-80950ad64785&amp;events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&amp;integration=advertiser&amp;p_id=Twitter&amp;p_user_id=0&amp;pl_id=f60ea059-0e14-48c5-9816-9866d254ff29&amp;pt=Aplikasi%20POS%20Lengkap%20Pendukung%20UMKM%20Lebih%20Maju&amp;tw_document_href=https%3A%2F%2Fmajoo.id%2F&amp;tw_iframe_status=0&amp;tw_order_quantity=0&amp;tw_sale_amount=0&amp;txn_id=o7sr8&amp;type=javascript&amp;version=2.3.34" height="1" width="1" style="display: none;"><img src="https://analytics.twitter.com/i/adsct?bci=3&amp;dv=Asia%2FJakarta%26en-US%2Cen%2Cid%26Google%20Inc.%26Win32%26255%261536%26864%2612%2624%261536%26816%260%26na&amp;eci=2&amp;event_id=f739e079-e938-435d-8986-80950ad64785&amp;events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&amp;integration=advertiser&amp;p_id=Twitter&amp;p_user_id=0&amp;pl_id=f60ea059-0e14-48c5-9816-9866d254ff29&amp;pt=Aplikasi%20POS%20Lengkap%20Pendukung%20UMKM%20Lebih%20Maju&amp;tw_document_href=https%3A%2F%2Fmajoo.id%2F&amp;tw_iframe_status=0&amp;tw_order_quantity=0&amp;tw_sale_amount=0&amp;txn_id=o7sr8&amp;type=javascript&amp;version=2.3.34" height="1" width="1" style="display: none;"></body>
 </html>

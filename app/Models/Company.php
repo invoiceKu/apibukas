@@ -29,6 +29,7 @@ class Company extends Model
         'kota',
         'latitude',
         'longitude',
+        'staff',
     ];
 
     public function user()
