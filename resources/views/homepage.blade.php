@@ -159,7 +159,7 @@
             </div>
 
             <div class="pos-image">
-                <img src="{{ asset('images/pos-example.png') }}" alt="POS Image">
+                <img src="{{ asset('images/slider2.png') }}" alt="POS Image">
             </div>
         </div>
     </section>
