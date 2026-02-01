@@ -242,7 +242,7 @@
                 </ul>
             </div>
 
-            <!-- Dynamic Plans -->
+            <!-- Dynamic Plans
             @foreach ($prices as $price)
                 <div class="pricing-card {{ strtolower($price->name) }}">
                     <div class="plan-name">{{ $price->nama }}</div>
@@ -280,7 +280,7 @@
                         @endif
                     </ul>
                 </div>
-            @endforeach
+            @endforeach -->
         </div>
     </section>
 
